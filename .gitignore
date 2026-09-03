@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+.nuxt/
+.output/
+.nitro/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# SQLite
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# TRAE workspace (local only)
+.screenshots/
+.superpowers/
+.trae-html-share-packages/
+.uploads/
