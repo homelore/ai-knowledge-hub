@@ -1,0 +1,20 @@
+# ── 前端 .dockerignore ──────────────────────────
+# 用于 frontend 构建上下文 (context: ./frontend)
+
+node_modules/
+.nuxt/
+.output/
+.nitro/
+dist/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
