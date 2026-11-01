@@ -25,6 +25,9 @@ backend/data/*.db-shm
 # Environment variables
 .env
 
+# SSL certificates (private keys, never commit)
+nginx/ssl/
+
 # IDE
 .vscode/
 .idea/
