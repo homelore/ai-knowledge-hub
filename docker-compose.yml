@@ -6,8 +6,12 @@ services:
       dockerfile: backend/Dockerfile
     container_name: ai-hub-backend
     env_file: .env
+    environment:
+      - TZ=Asia/Shanghai
     volumes:
       - backend-data:/app/backend/data
+      - /etc/localtime:/etc/localtime:ro
+      - ./content:/app/content:ro
     restart: unless-stopped
     networks:
       - ai-hub-net
