@@ -12,11 +12,11 @@
         "preference": "easy"
       },
       "relevant": {
-        "f/prompts.chat": 3,
+        "affaan-m/ECC": 3,
+        "OpenHands/OpenHands": 3,
         "mlabonne/llm-course": 3,
-        "bojieli/ai-agent-book": 3,
         "stas00/ml-engineering": 3,
-        "microsoft/agent-lightning": 1
+        "evidentlyai/evidently": 3
       },
       "curated_relevant": {
         "f/prompts.chat": 3,
@@ -36,11 +36,11 @@
         "preference": "runnable"
       },
       "relevant": {
-        "f/prompts.chat": 3,
+        "affaan-m/ECC": 3,
+        "OpenHands/OpenHands": 3,
         "mlabonne/llm-course": 3,
-        "bojieli/ai-agent-book": 3,
         "stas00/ml-engineering": 3,
-        "microsoft/agent-lightning": 2
+        "evidentlyai/evidently": 3
       },
       "curated_relevant": {
         "ollama/ollama": 3,
@@ -60,9 +60,9 @@
         "preference": "documented"
       },
       "relevant": {
+        "NirDiamant/agents-towards-production": 3,
         "Significant-Gravitas/AutoGPT": 2,
         "vllm-project/vllm": 2,
-        "OpenHands/OpenHands": 2,
         "stas00/ml-engineering": 2,
         "microsoft/agent-lightning": 2
       },
@@ -84,11 +84,11 @@
         "preference": "research"
       },
       "relevant": {
-        "affaan-m/ECC": 3,
-        "khoj-ai/khoj": 3,
-        "bytedance/deer-flow": 2,
-        "alibaba/MNN": 2,
-        "activeloopai/deeplake": 2
+        "p-e-w/heretic": 3,
+        "rasbt/LLMs-from-scratch": 2,
+        "datawhalechina/happy-llm": 2,
+        "microsoft/agent-lightning": 2,
+        "alibaba/MNN": 2
       },
       "curated_relevant": {
         "affaan-m/ECC": 3,
@@ -108,11 +108,11 @@
         "preference": "easy"
       },
       "relevant": {
-        "Shubhamsaboo/awesome-llm-apps": 3,
-        "dair-ai/Prompt-Engineering-Guide": 3,
-        "bojieli/ai-agent-book": 3,
-        "activeloopai/deeplake": 1,
-        "datawhalechina/tiny-universe": 1
+        "open-webui/open-webui": 3,
+        "thedotmack/claude-mem": 3,
+        "PaddlePaddle/PaddleOCR": 3,
+        "datawhalechina/tiny-universe": 3,
+        "activeloopai/deeplake": 1
       },
       "curated_relevant": {
         "Shubhamsaboo/awesome-llm-apps": 3,
@@ -132,10 +132,10 @@
         "preference": "runnable"
       },
       "relevant": {
-        "Shubhamsaboo/awesome-llm-apps": 3,
-        "dair-ai/Prompt-Engineering-Guide": 3,
-        "bojieli/ai-agent-book": 3,
-        "datawhalechina/tiny-universe": 2,
+        "open-webui/open-webui": 3,
+        "thedotmack/claude-mem": 3,
+        "PaddlePaddle/PaddleOCR": 3,
+        "datawhalechina/tiny-universe": 3,
         "activeloopai/deeplake": 1
       },
       "curated_relevant": {
@@ -155,11 +155,11 @@
         "preference": "documented"
       },
       "relevant": {
-        "open-webui/open-webui": 2,
-        "thedotmack/claude-mem": 2,
+        "Shubhamsaboo/awesome-llm-apps": 3,
+        "NirDiamant/agents-towards-production": 3,
         "infiniflow/ragflow": 2,
-        "datawhalechina/tiny-universe": 2,
-        "activeloopai/deeplake": 1
+        "activeloopai/deeplake": 2,
+        "datawhalechina/tiny-universe": 2
       },
       "curated_relevant": {
         "infiniflow/ragflow": 3,
@@ -179,11 +179,11 @@
         "preference": "research"
       },
       "relevant": {
-        "khoj-ai/khoj": 3,
-        "pathwaycom/llm-app": 2,
-        "milvus-io/milvus": 2,
-        "activeloopai/deeplake": 2,
-        "datawhalechina/tiny-universe": 1
+        "patchy631/ai-engineering-hub": 2,
+        "datawhalechina/happy-llm": 2,
+        "open-webui/open-webui": 1,
+        "activeloopai/deeplake": 1,
+        "langchain-ai/langchain": 1
       },
       "curated_relevant": {
         "Graphify-Labs/graphify": 3,
@@ -204,10 +204,10 @@
       },
       "relevant": {
         "Snailclimb/JavaGuide": 3,
-        "dair-ai/Prompt-Engineering-Guide": 3,
-        "bojieli/ai-agent-book": 3,
-        "microsoft/agent-lightning": 1,
-        "activeloopai/deeplake": 1
+        "OpenHands/OpenHands": 3,
+        "Leonxlnx/taste-skill": 3,
+        "datawhalechina/tiny-universe": 3,
+        "microsoft/agent-lightning": 1
       },
       "curated_relevant": {
         "dair-ai/Prompt-Engineering-Guide": 3,
@@ -228,10 +228,10 @@
       },
       "relevant": {
         "Snailclimb/JavaGuide": 3,
-        "dair-ai/Prompt-Engineering-Guide": 3,
-        "bojieli/ai-agent-book": 3,
-        "microsoft/agent-lightning": 2,
-        "datawhalechina/tiny-universe": 2
+        "OpenHands/OpenHands": 3,
+        "Leonxlnx/taste-skill": 3,
+        "datawhalechina/tiny-universe": 3,
+        "microsoft/agent-lightning": 1
       },
       "curated_relevant": {
         "OpenHands/OpenHands": 3,
@@ -250,11 +250,11 @@
         "preference": "documented"
       },
       "relevant": {
+        "NirDiamant/agents-towards-production": 3,
         "Snailclimb/JavaGuide": 2,
-        "OpenHands/OpenHands": 2,
-        "lobehub/lobehub": 2,
+        "koala73/worldmonitor": 2,
         "microsoft/agent-lightning": 2,
-        "datawhalechina/tiny-universe": 2
+        "activeloopai/deeplake": 2
       },
       "curated_relevant": {
         "lobehub/lobehub": 3,
@@ -273,11 +273,11 @@
         "preference": "research"
       },
       "relevant": {
-        "TauricResearch/TradingAgents": 3,
-        "khoj-ai/khoj": 3,
-        "koala73/worldmonitor": 2,
-        "activeloopai/deeplake": 2,
-        "microsoft/agent-lightning": 1
+        "pingcap/tidb": 2,
+        "datawhalechina/happy-llm": 2,
+        "microsoft/agent-lightning": 2,
+        "Snailclimb/JavaGuide": 1,
+        "activeloopai/deeplake": 1
       },
       "curated_relevant": {
         "TauricResearch/TradingAgents": 3,
@@ -297,11 +297,11 @@
         "preference": "easy"
       },
       "relevant": {
+        "huggingface/transformers": 3,
         "labmlai/annotated_deep_learning_paper_implementations": 3,
         "lukasmasuch/best-of-ml-python": 3,
-        "amusi/CVPR2026-Papers-with-Code": 3,
-        "datawhalechina/leedl-tutorial": 3,
-        "graykode/nlp-tutorial": 3
+        "nndl/nndl": 3,
+        "datawhalechina/leedl-tutorial": 3
       },
       "curated_relevant": {
         "labmlai/annotated_deep_learning_paper_implementations": 3,
@@ -321,9 +321,9 @@
       "relevant": {
         "huggingface/transformers": 3,
         "lukasmasuch/best-of-ml-python": 3,
+        "nndl/nndl": 3,
         "datawhalechina/leedl-tutorial": 3,
-        "PaddlePaddle/PaddleSpeech": 3,
-        "google/trax": 3
+        "lukas-blecher/LaTeX-OCR": 3
       },
       "curated_relevant": {
         "huggingface/transformers": 3,
@@ -342,9 +342,9 @@
         "preference": "documented"
       },
       "relevant": {
-        "huggingface/transformers": 2,
         "vllm-project/vllm": 2,
         "labmlai/annotated_deep_learning_paper_implementations": 2,
+        "ggml-org/whisper.cpp": 2,
         "nndl/nndl": 2,
         "datawhalechina/leedl-tutorial": 2
       },
@@ -365,11 +365,11 @@
         "preference": "research"
       },
       "relevant": {
-        "labmlai/annotated_deep_learning_paper_implementations": 2,
-        "open-mmlab/mmdetection": 2,
-        "sgl-project/sglang": 2,
-        "alibaba/MNN": 2,
-        "graykode/nlp-tutorial": 2
+        "p-e-w/heretic": 3,
+        "BlinkDL/RWKV-LM": 3,
+        "openai/jukebox": 3,
+        "Alpha-VLLM/Lumina-T2X": 3,
+        "labmlai/annotated_deep_learning_paper_implementations": 2
       },
       "curated_relevant": {
         "sgl-project/sglang": 3,
@@ -389,10 +389,10 @@
       },
       "relevant": {
         "datawhalechina/leedl-tutorial": 3,
-        "easydiffusion/easydiffusion": 3,
-        "open-mmlab/mmagic": 3,
-        "williamyang1991/Rerender_A_Video": 3,
-        "ChenHsing/Awesome-Video-Diffusion-Models": 3
+        "pollinations/pollinations": 3,
+        "riffusion/riffusion-app-hobby": 3,
+        "ChenHsing/Awesome-Video-Diffusion-Models": 3,
+        "wangkai930418/awesome-diffusion-categorized": 3
       },
       "curated_relevant": {
         "datawhalechina/leedl-tutorial": 3,
@@ -413,8 +413,8 @@
       "relevant": {
         "datawhalechina/leedl-tutorial": 3,
         "easydiffusion/easydiffusion": 3,
-        "williamyang1991/Rerender_A_Video": 3,
-        "ChenHsing/Awesome-Video-Diffusion-Models": 3,
+        "pollinations/pollinations": 3,
+        "riffusion/riffusion-app-hobby": 3,
         "AUTOMATIC1111/stable-diffusion-webui": 2
       },
       "curated_relevant": {
@@ -436,8 +436,8 @@
       "relevant": {
         "AUTOMATIC1111/stable-diffusion-webui": 2,
         "huggingface/diffusers": 2,
+        "sgl-project/sglang": 2,
         "datawhalechina/leedl-tutorial": 2,
-        "NVlabs/Sana": 2,
         "cloneofsimo/lora": 2
       },
       "curated_relevant": {
@@ -458,11 +458,11 @@
         "preference": "research"
       },
       "relevant": {
-        "transformerlab/transformerlab-app": 3,
-        "sgl-project/sglang": 2,
-        "ai-dynamo/dynamo": 2,
-        "prs-eth/Marigold": 2,
-        "wangkai930418/awesome-diffusion-categorized": 2
+        "NVlabs/Sana": 3,
+        "williamyang1991/Rerender_A_Video": 3,
+        "TMElyralab/MuseV": 3,
+        "bytedance/InfiniteYou": 3,
+        "nv-tlabs/lyra": 3
       },
       "curated_relevant": {
         "sgl-project/sglang": 3,
@@ -482,11 +482,11 @@
         "preference": "easy"
       },
       "relevant": {
-        "NirDiamant/agents-towards-production": 3,
-        "EthicalML/awesome-production-machine-learning": 3,
-        "stas00/ml-engineering": 3,
-        "DataTalksClub/mlops-zoomcamp": 3,
-        "microsoft/nni": 3
+        "qdrant/qdrant": 3,
+        "HumanSignal/label-studio": 3,
+        "mlflow/mlflow": 3,
+        "Avaiga/taipy": 3,
+        "stas00/ml-engineering": 3
       },
       "curated_relevant": {
         "EthicalML/awesome-production-machine-learning": 3,
@@ -505,11 +505,11 @@
         "preference": "runnable"
       },
       "relevant": {
-        "NirDiamant/agents-towards-production": 3,
+        "HumanSignal/label-studio": 3,
+        "mlflow/mlflow": 3,
         "EthicalML/awesome-production-machine-learning": 3,
-        "stas00/ml-engineering": 3,
-        "DataTalksClub/mlops-zoomcamp": 3,
-        "microsoft/nni": 3
+        "Avaiga/taipy": 3,
+        "stas00/ml-engineering": 3
       },
       "curated_relevant": {
         "mlflow/mlflow": 3,
@@ -528,11 +528,11 @@
         "preference": "documented"
       },
       "relevant": {
+        "GokuMohandas/Made-With-ML": 3,
+        "NirDiamant/agents-towards-production": 3,
+        "aws/amazon-sagemaker-examples": 3,
         "apache/airflow": 2,
-        "HumanSignal/label-studio": 2,
-        "jina-ai/serve": 2,
-        "stas00/ml-engineering": 2,
-        "microsoft/agent-lightning": 2
+        "stas00/ml-engineering": 2
       },
       "curated_relevant": {
         "apache/airflow": 3,
@@ -552,11 +552,11 @@
         "preference": "research"
       },
       "relevant": {
-        "wandb/wandb": 3,
         "GokuMohandas/Made-With-ML": 2,
-        "qdrant/qdrant": 2,
-        "mlflow/mlflow": 2,
-        "Avaiga/taipy": 2
+        "microsoft/agent-lightning": 2,
+        "argoproj/argo-workflows": 2,
+        "aws/amazon-sagemaker-examples": 2,
+        "apache/airflow": 1
       },
       "curated_relevant": {
         "qdrant/qdrant": 3,
