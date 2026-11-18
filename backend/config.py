@@ -45,7 +45,27 @@ CRON_MINUTE = 0
 # ── 服务 ──────────────────────────────────────────────
 API_HOST = os.getenv("API_HOST", "0.0.0.0")
 API_PORT = int(os.getenv("API_PORT", 8000))
-CORS_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-]
+CORS_ORIGINS = os.getenv(
+    "CORS_ORIGINS",
+    "http://localhost:3000,http://127.0.0.1:3000",
+).split(",")
+
+# ── LLM（火山方舟 / 豆包）─────────────────────────────
+# 总开关：关闭时永不调用模型，全部走规则/模板路径
+LLM_ENABLED = os.getenv("LLM_ENABLED", "false").lower() == "true"
+ARK_API_KEY = os.getenv("ARK_API_KEY", "")
+ARK_BASE_URL = os.getenv("ARK_BASE_URL", "https://ark.cn-beijing.volces.com/api/v3").rstrip("/")
+# 模型标识回落链：优先接入点 ID，其次模型名直调
+ARK_ENDPOINT_ID = os.getenv("ARK_ENDPOINT_ID", "")
+ARK_MODEL = os.getenv("ARK_MODEL", "")
+# 推理开关：本场景必须 disabled，否则首字延迟与费用都会明显变差
+ARK_THINKING = os.getenv("ARK_THINKING", "disabled")
+ARK_TEMPERATURE = float(os.getenv("ARK_TEMPERATURE", "0.3"))
+ARK_TIMEOUT_CONNECT = float(os.getenv("ARK_TIMEOUT_CONNECT", "3"))
+ARK_TIMEOUT_READ = float(os.getenv("ARK_TIMEOUT_READ", "20"))
+ARK_MAX_RETRIES = int(os.getenv("ARK_MAX_RETRIES", "1"))
+# 预算护栏：0 表示不限制
+ARK_DAILY_CALL_LIMIT = int(os.getenv("ARK_DAILY_CALL_LIMIT", "300"))
+ARK_DAILY_TOKEN_LIMIT = int(os.getenv("ARK_DAILY_TOKEN_LIMIT", "1000000"))
+# 仅离线评测时允许把全量仓库塞进上下文
+ARK_ALLOW_FULL_CATALOG = os.getenv("ARK_ALLOW_FULL_CATALOG", "false").lower() == "true"

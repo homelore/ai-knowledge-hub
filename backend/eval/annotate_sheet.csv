@@ -1,0 +1,156 @@
+﻿repo_id,full_name,stars,language,difficulty,setup_cost,run_mode,needs_gpu,category,reviewed,source,notes,description
+1,affaan-m/ECC,243291,JavaScript,advanced,medium,research,no,framework,,rule,,"The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+2,NousResearch/hermes-agent,236584,Python,advanced,medium,research,no,framework,,rule,,The agent that grows with you
+3,Significant-Gravitas/AutoGPT,186876,Python,intermediate,medium,local,no,model,,rule,,"AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+4,ollama/ollama,179456,Go,intermediate,medium,local,optional,model,,rule,,"Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+5,firecrawl/firecrawl,172516,TypeScript,intermediate,medium,api-service,no,tool,,rule,,"The context API to search, scrape, and interact with the web at scale. 🔥"
+6,f/prompts.chat,167921,HTML,beginner,low,local,no,tutorial,,rule,,"f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+7,AUTOMATIC1111/stable-diffusion-webui,164666,Python,intermediate,medium,demo,optional,platform,,rule,,Stable Diffusion web UI
+8,huggingface/transformers,164455,Python,beginner,high,local,optional,tutorial,,rule,,"🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+9,Snailclimb/JavaGuide,158044,JavaScript,beginner,medium,local,no,tutorial,,rule,,Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
+10,langgenius/dify,153549,TypeScript,advanced,medium,local,no,platform,,rule,,"Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
+11,open-webui/open-webui,149951,Python,intermediate,medium,api-service,optional,model,,rule,,"User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+12,langchain-ai/langchain,145025,Python,intermediate,medium,local,no,platform,,rule,,The agent engineering platform.
+13,Shubhamsaboo/awesome-llm-apps,134421,Python,beginner,low,local,optional,tutorial,,rule,,"100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+14,harry0703/MoneyPrinterTurbo,116666,Python,intermediate,medium,local,no,tool,,rule,,利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
+15,DietrichGebert/ponytail,111598,JavaScript,intermediate,medium,local,no,model,,rule,,Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+16,Graphify-Labs/graphify,110696,Python,intermediate,medium,local,no,tool,,rule,,"Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
+17,browser-use/browser-use,110562,Python,intermediate,medium,local,no,framework,,rule,,🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+18,rasbt/LLMs-from-scratch,103811,Jupyter Notebook,beginner,medium,local,optional,tutorial,,rule,,"Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
+19,JuliusBrussee/caveman,101024,Go,intermediate,medium,local,no,tool,,rule,,🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+20,TauricResearch/TradingAgents,100537,Python,advanced,medium,research,optional,model,,rule,,TradingAgents: Multi-Agents LLM Financial Trading Framework
+21,thedotmack/claude-mem,91865,JavaScript,intermediate,medium,local,no,framework,,rule,,"Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+22,vllm-project/vllm,90086,Python,intermediate,medium,api-service,optional,model,,rule,,A high-throughput and memory-efficient inference and serving engine for LLMs
+23,infiniflow/ragflow,89292,Go,intermediate,medium,local,optional,model,,rule,,RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+24,PaddlePaddle/PaddleOCR,88282,Python,intermediate,medium,local,optional,model,,rule,,"Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages."
+25,OpenHands/OpenHands,85129,TypeScript,intermediate,medium,local,no,tool,,rule,,🙌 OpenHands: AI-Driven Development
+26,koala73/worldmonitor,84172,TypeScript,advanced,medium,local,no,platform,,rule,,"Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface"
+27,lobehub/lobehub,82006,TypeScript,intermediate,medium,local,no,framework,,rule,,"🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
+28,mlabonne/llm-course,82000,,beginner,low,demo,optional,tutorial,,rule,,Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
+29,bytedance/deer-flow,80910,Python,advanced,medium,api-service,no,framework,,rule,,"An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
+30,Leonxlnx/taste-skill,80735,JavaScript,intermediate,medium,local,no,tool,,rule,,"Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop "
+31,dair-ai/Prompt-Engineering-Guide,77795,MDX,beginner,low,demo,no,tutorial,,rule,,"🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents."
+32,rtk-ai/rtk,77462,Rust,intermediate,medium,api-service,optional,model,,rule,,"CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
+33,shareAI-lab/learn-claude-code,75336,Python,intermediate,medium,local,no,framework,,rule,,"Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1"
+34,datawhalechina/hello-agents,74919,Python,intermediate,medium,local,no,framework,,rule,,📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+35,unslothai/unsloth,74791,Python,intermediate,high,local,optional,model,,rule,,"Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more."
+36,hiyouga/LlamaFactory,74365,Python,intermediate,medium,local,optional,model,,rule,,Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
+37,FoundationAgents/MetaGPT,70039,Python,intermediate,medium,local,no,model,,rule,,"🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming"
+38,headroomlabs-ai/headroom,67631,Python,intermediate,medium,api-service,optional,model,,rule,,"Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+39,labmlai/annotated_deep_learning_paper_implementations,67354,Python,beginner,low,research,optional,tutorial,,rule,,"🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠"
+40,Mintplex-Labs/anything-llm,65212,JavaScript,intermediate,medium,local,optional,model,,rule,,Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
+41,mem0ai/mem0,64067,Python,intermediate,medium,local,no,framework,,rule,,Universal memory layer for AI Agents
+42,pathwaycom/llm-app,58995,Jupyter Notebook,advanced,medium,api-service,optional,platform,,rule,,"Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more."
+43,FlowiseAI/Flowise,55391,TypeScript,intermediate,medium,local,no,framework,,rule,,"Build AI Agents, Visually"
+44,ggml-org/whisper.cpp,53189,C++,intermediate,medium,local,no,model,,rule,,Port of OpenAI's Whisper model in C/C++
+45,run-llama/llama_index,51876,Python,intermediate,medium,local,optional,platform,,rule,,LlamaIndex is the leading document agent and OCR platform
+46,calesthio/OpenMontage,50409,Python,advanced,medium,local,no,platform,,rule,,"World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
+47,huginn/huginn,49858,Ruby,intermediate,medium,local,no,framework,,rule,,Create agents that monitor and act on your behalf.  Your agents are standing by!
+48,GokuMohandas/Made-With-ML,49223,Jupyter Notebook,advanced,medium,local,no,tool,,rule,,"Learn how to develop, deploy and iterate on production-grade ML applications."
+49,jeecgboot/JeecgBoot,47481,Java,intermediate,medium,local,no,tool,,rule,,【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。
+50,apache/airflow,46610,Python,intermediate,medium,local,no,platform,,rule,,"Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+51,milvus-io/milvus,45795,Go,advanced,medium,local,no,platform,,rule,,"Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+52,bojieli/ai-agent-book,42359,Python,beginner,low,local,no,tutorial,,rule,,《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
+53,langchain-ai/langgraph,40474,Python,intermediate,medium,local,no,framework,,rule,,Build resilient agents.
+54,pingcap/tidb,40472,Go,advanced,medium,local,no,framework,,rule,,"TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+55,2noise/ChatTTS,39795,Python,intermediate,medium,local,no,model,,rule,,A generative speech model for daily dialogue.
+56,AstrBotDevs/AstrBot,39624,Python,intermediate,medium,local,optional,platform,,rule,,"AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
+57,QuivrHQ/quivr,39423,Python,beginner,medium,local,optional,model,,rule,,"Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want."
+58,HKUDS/LightRAG,39191,Python,beginner,medium,local,no,framework,,rule,,[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation
+59,bytedance/UI-TARS-desktop,38708,TypeScript,intermediate,medium,local,no,model,,rule,,The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
+60,chatchat-space/Langchain-Chatchat,38581,Python,intermediate,medium,local,optional,model,,rule,,"Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain "
+61,HKUDS/DeepTutor,37521,Python,intermediate,medium,local,no,tool,,rule,,DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+62,alibaba/arthas,37498,Java,intermediate,medium,local,no,tool,,rule,,Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas
+63,patchy631/ai-engineering-hub,37179,Jupyter Notebook,beginner,low,local,optional,tutorial,,rule,,"In-depth tutorials on LLMs, RAGs and real-world AI agent applications."
+64,CopilotKit/CopilotKit,37052,TypeScript,intermediate,medium,local,no,framework,,rule,,"The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol"
+65,khoj-ai/khoj,36724,Python,advanced,medium,research,optional,model,,rule,,"Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
+66,1Panel-dev/1Panel,36639,Go,intermediate,medium,api-service,no,platform,,rule,,"🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform."
+67,ItzCrazyKns/Vane,36478,TypeScript,intermediate,medium,local,no,framework,,rule,,Vane is an AI-powered answering engine.
+68,reworkd/AgentGPT,36304,TypeScript,intermediate,medium,local,no,model,,rule,,"🤖 Assemble, configure, and deploy autonomous AI Agents in your browser."
+69,microsoft/graphrag,35692,Python,intermediate,medium,local,no,framework,,rule,,A modular graph-based Retrieval-Augmented Generation (RAG) system
+70,continuedev/continue,35639,TypeScript,intermediate,medium,local,no,framework,,rule,,open-source coding agent
+71,VectifyAI/PageIndex,35330,Python,intermediate,medium,local,no,framework,,rule,,"📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
+72,esengine/DeepSeek-Reasonix,35175,Go,intermediate,medium,local,no,framework,,rule,,DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
+73,huggingface/diffusers,34384,Python,intermediate,medium,local,optional,model,,rule,,"🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch."
+74,qdrant/qdrant,34197,Rust,advanced,medium,local,no,platform,,rule,,"Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/"
+75,datawhalechina/happy-llm,33265,Jupyter Notebook,intermediate,medium,local,optional,model,,rule,,📚 从零开始构建大模型
+76,open-mmlab/mmdetection,32891,Python,intermediate,medium,research,no,tool,,rule,,OpenMMLab Detection Toolbox and Benchmark
+77,sgl-project/sglang,32468,Python,advanced,medium,api-service,no,model,,rule,,SGLang is a high-performance serving framework for large language models and multimodal models.
+78,fishaudio/fish-speech,32400,Python,intermediate,medium,local,no,tool,,rule,,SOTA Open Source TTS
+79,onyx-dot-app/onyx,31768,Python,intermediate,medium,local,optional,platform,,rule,,Open Source AI Platform - AI Chat with advanced features that works with every LLM
+80,HumanSignal/label-studio,28146,TypeScript,intermediate,medium,local,no,platform,,rule,,Label Studio is a multi-type data labeling and annotation tool with standardized output format
+81,p-e-w/heretic,28131,Python,intermediate,medium,local,no,model,,rule,,Fully automatic censorship removal for language models
+82,mlflow/mlflow,27683,Python,advanced,medium,local,optional,platform,,rule,,"The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data."
+83,SYSTRAN/faster-whisper,25089,Python,intermediate,medium,local,no,model,,rule,,Faster Whisper transcription with CTranslate2
+84,lukasmasuch/best-of-ml-python,23734,,beginner,low,local,no,tutorial,,rule,,🏆 A ranked list of awesome machine learning Python libraries. Updated weekly.
+85,amusi/CVPR2026-Papers-with-Code,22794,,beginner,low,research,no,tutorial,,rule,,CVPR 2026 论文和开源项目合集
+86,jina-ai/serve,21862,Python,intermediate,medium,local,no,platform,,rule,,☁️ Build multimodal AI applications with cloud-native stack
+87,huggingface/peft,21598,Python,intermediate,medium,local,no,tool,,rule,,🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.
+88,NirDiamant/agents-towards-production,21332,Jupyter Notebook,beginner,low,local,no,tutorial,,rule,,"End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment."
+89,EthicalML/awesome-production-machine-learning,20868,,beginner,low,local,no,tutorial,,rule,,"A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning"
+90,Avaiga/taipy,19432,Python,advanced,medium,local,no,tool,,rule,,Turns Data and AI algorithms into production-ready web applications in no time.
+91,nndl/nndl,19122,,intermediate,medium,local,no,tool,,rule,,邱锡鹏《神经网络与深度学习》（蒲公英书）理论书 v2 与通识版
+92,stas00/ml-engineering,18710,Python,beginner,low,local,no,tutorial,,rule,,Machine Learning Engineering Open Book
+93,microsoft/agent-lightning,17839,Python,intermediate,high,local,no,framework,,rule,,The absolute trainer to light up AI agents.
+94,argoproj/argo-workflows,16938,Go,advanced,high,local,no,framework,,rule,,Workflow Engine for Kubernetes
+95,weaviate/weaviate,16754,Go,intermediate,medium,local,no,platform,,rule,,"Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​."
+96,datawhalechina/leedl-tutorial,16733,Jupyter Notebook,beginner,low,local,no,tutorial,,rule,,《李宏毅深度学习教程》（李宏毅老师推荐👍，苹果书🍎），PDF下载地址：https://github.com/datawhalechina/leedl-tutorial/releases
+97,lukas-blecher/LaTeX-OCR,16546,Python,intermediate,medium,local,no,tool,,rule,,pix2tex: Using a ViT to convert images of equations into LaTeX code.
+98,dagster-io/dagster,16062,Python,advanced,medium,local,no,platform,,rule,,"An orchestration platform for the development, production, and observation of data assets."
+99,alibaba/MNN,15969,C++,advanced,medium,local,optional,model,,rule,,"MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI."
+100,DataTalksClub/mlops-zoomcamp,15182,Jupyter Notebook,beginner,low,local,no,tutorial,,rule,,Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort
+101,GeeeekExplorer/nano-vllm,15151,Python,intermediate,medium,local,optional,model,,rule,,Nano vLLM
+102,graykode/nlp-tutorial,14924,Jupyter Notebook,beginner,low,research,no,tutorial,,rule,,Natural Language Processing Tutorial for Deep Learning Researchers
+103,BlinkDL/RWKV-LM,14682,Python,advanced,high,local,optional,model,,rule,,"RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 ""Goose"". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding."
+104,microsoft/nni,14361,Python,beginner,medium,local,no,tutorial,,rule,,"An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning."
+105,visenger/awesome-mlops,14165,,beginner,low,local,no,tutorial,,rule,,A curated list of references for MLOps 
+106,EleutherAI/lm-evaluation-harness,13793,Python,intermediate,medium,local,no,model,,rule,,A framework for few-shot evaluation of language models.
+107,cfug/dio,12838,Dart,intermediate,medium,local,no,tool,,rule,,"A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc."
+108,PaddlePaddle/PaddleSpeech,12669,Python,beginner,medium,demo,no,tutorial,,rule,,"Easy-to-use Speech Toolkit including Self-Supervised Learning model, SOTA/Streaming ASR with punctuation, Streaming TTS with text frontend, Speaker Verification System, End-to-End Speech Translation and Keyword Spotting. Won NAACL2022 Best Demo Award."
+109,bentoml/OpenLLM,12515,Python,intermediate,medium,api-service,optional,platform,,rule,,"Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud."
+110,fivetran/great_expectations,11738,Python,intermediate,medium,local,no,tool,,rule,,Always know what to expect from your data.
+111,tensorzero/tensorzero,11719,Rust,intermediate,medium,api-service,optional,platform,,rule,,"TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation."
+112,wandb/wandb,11240,Python,advanced,high,research,no,platform,,rule,,"The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production."
+113,aws/amazon-sagemaker-examples,10980,Jupyter Notebook,beginner,high,demo,no,tutorial,,rule,,"Example 📓 Jupyter notebooks that demonstrate how to build, train, and deploy machine learning models using 🧠 Amazon SageMaker. "
+114,kedro-org/kedro,10970,Python,advanced,medium,local,no,framework,,rule,,"Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular."
+115,huggingface/text-generation-inference,10888,Python,intermediate,medium,local,optional,model,,rule,,Large Language Model Text Generation Inference
+116,chiphuyen/machine-learning-systems-design,10552,HTML,beginner,low,local,no,tutorial,,rule,,"A booklet on machine learning systems design with exercises. NOT the repo for the book ""Designing Machine Learning Systems"", which is `dmls-book`"
+117,skypilot-org/skypilot,10527,Python,intermediate,medium,local,no,platform,,rule,,"The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster."
+118,bigscience-workshop/petals,10518,Python,intermediate,medium,local,optional,model,,rule,,"🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading"
+119,easydiffusion/easydiffusion,10453,JavaScript,beginner,medium,local,optional,model,,rule,,"An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image."
+120,zyddnys/manga-image-translator,10345,Python,intermediate,medium,local,no,tool,,rule,,Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/ (no longer working)
+121,Netflix/metaflow,10243,Python,intermediate,medium,local,no,tool,,rule,,"Build, Manage and Deploy AI/ML Systems"
+122,open-mmlab/mmsegmentation,9930,Python,intermediate,medium,research,no,tool,,rule,,OpenMMLab Semantic Segmentation Toolbox and Benchmark.
+123,pycaret/pycaret,9833,Python,intermediate,medium,local,no,platform,,rule,,"Open-source, low-code AutoML platform for Python. PyCaret 4.0: sklearn-native engine + React control plane."
+124,PaddlePaddle/PaddleSeg,9381,Python,beginner,high,demo,required,tutorial,,rule,,"Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc."
+125,activeloopai/deeplake,9228,C++,advanced,high,api-service,no,framework,,rule,,"Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training."
+126,NVlabs/Sana,8823,Python,intermediate,medium,local,optional,model,,rule,,SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer
+127,bentoml/BentoML,8806,Python,intermediate,medium,api-service,optional,model,,rule,,"The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!"
+128,OptimalScale/LMFlow,8484,Python,intermediate,medium,local,optional,model,,rule,,An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All.
+129,google/trax,8306,Python,beginner,medium,local,no,tutorial,,rule,,Trax — Deep Learning with Clear Code and Speed
+130,jessevig/bertviz,8160,Python,intermediate,medium,local,optional,model,,rule,,BertViz: Visualize Attention in Transformer Models
+131,openai/jukebox,8029,Python,intermediate,medium,research,no,model,,rule,,"Code for the paper ""Jukebox: A Generative Model for Music"""
+132,ai-dynamo/dynamo,7862,Rust,advanced,high,api-service,optional,framework,,rule,,A Datacenter Scale Distributed Inference Serving Framework
+133,evidentlyai/evidently,7848,Jupyter Notebook,intermediate,medium,local,optional,model,,rule,,"Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics."
+134,cloneofsimo/lora,7550,Jupyter Notebook,intermediate,medium,local,optional,model,,rule,,Using Low-rank adaptation to quickly fine-tune diffusion models.
+135,open-mmlab/mmagic,7457,Jupyter Notebook,beginner,medium,api-service,optional,model,,rule,,"OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic 🪄: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc."
+136,leejet/stable-diffusion.cpp,6841,C++,intermediate,medium,local,optional,model,,rule,,"Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+137,vllm-project/vllm-omni,6348,Python,intermediate,medium,local,optional,model,,rule,,A framework for efficient model inference with omni-modality models
+138,transformerlab/transformerlab-app,5179,Python,advanced,high,research,optional,model,,rule,,"The open source research environment for AI researchers to seamlessly train, evaluate, and scale models from local hardware to GPU clusters."
+139,datawhalechina/tiny-universe,5027,Jupyter Notebook,intermediate,medium,local,no,tool,,rule,,《大模型白盒子构建指南》：一个全手搓的Tiny-Universe
+140,pollinations/pollinations,4990,TypeScript,intermediate,medium,local,no,platform,,rule,,Your Friendly Open-Source Gen-AI Platform
+141,VectorSpaceLab/OmniGen,4340,Jupyter Notebook,intermediate,medium,local,no,tool,,rule,,OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340
+142,riffusion/riffusion-hobby,3900,Python,intermediate,medium,local,optional,model,,rule,,Stable diffusion for real-time music generation
+143,jina-ai/discoart,3826,Python,intermediate,medium,local,optional,model,,rule,,🪩 Create Disco Diffusion artworks in one line
+144,prs-eth/Marigold,3197,Python,intermediate,medium,research,optional,model,,rule,,"[CVPR 2024 - Oral, Best Paper Award Candidate] Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation"
+145,williamyang1991/Rerender_A_Video,2999,Jupyter Notebook,beginner,medium,local,no,tutorial,,rule,,[SIGGRAPH Asia 2023] Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation
+146,nunchaku-ai/ComfyUI-nunchaku,2920,Python,intermediate,medium,local,no,tool,,rule,,ComfyUI Plugin of Nunchaku
+147,PlayVoice/whisper-vits-svc,2864,Python,intermediate,medium,local,no,model,,rule,,Core Engine of Singing Voice Conversion & Singing Voice Clone
+148,TMElyralab/MuseV,2845,Python,intermediate,medium,local,no,tool,,rule,,MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising
+149,ai-forever/Kandinsky-2,2814,Jupyter Notebook,intermediate,medium,local,optional,model,,rule,,Kandinsky 2 — multilingual text2image latent diffusion model
+150,bytedance/InfiniteYou,2684,Python,intermediate,medium,api-service,no,framework,,rule,,🔥 [ICCV 2025 Highlight] InfiniteYou: Flexible Photo Recrafting While Preserving Your Identity
+151,riffusion/riffusion-app-hobby,2677,TypeScript,intermediate,medium,local,optional,model,,rule,,Stable diffusion for real-time music generation (web app)
+152,ChenHsing/Awesome-Video-Diffusion-Models,2314,,beginner,low,local,optional,tutorial,,rule,,[CSUR] A Survey on Video Diffusion Models
+153,nv-tlabs/lyra,2262,Python,intermediate,medium,local,no,model,,rule,,Project Lyra: Open Generative 3D World Models
+154,Alpha-VLLM/Lumina-T2X,2250,Python,intermediate,medium,local,optional,model,,rule,,Lumina-T2X is a unified framework for Text to Any Modality Generation
+155,wangkai930418/awesome-diffusion-categorized,2224,,beginner,low,research,optional,tutorial,,rule,,collection of diffusion model papers categorized by their subareas

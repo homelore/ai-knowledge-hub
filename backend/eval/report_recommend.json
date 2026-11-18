@@ -1,0 +1,666 @@
+{
+  "rule": {
+    "queries": 24,
+    "ndcg@5": 0.7336,
+    "recall@5": 0.6868,
+    "unsupported_reason_rate": 0.0,
+    "details": [
+      {
+        "id": "q01",
+        "profile": {
+          "topics": [
+            "llm"
+          ],
+          "level": "beginner",
+          "preference": "easy"
+        },
+        "ndcg@5": 0.7878,
+        "recall@5": 0.75,
+        "retrieved": [
+          "f/prompts.chat",
+          "bojieli/ai-agent-book",
+          "NirDiamant/agents-towards-production",
+          "stas00/ml-engineering",
+          "bentoml/OpenLLM"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          3,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q02",
+        "profile": {
+          "topics": [
+            "llm"
+          ],
+          "level": "beginner",
+          "preference": "runnable"
+        },
+        "ndcg@5": 0.7559,
+        "recall@5": 0.6,
+        "retrieved": [
+          "f/prompts.chat",
+          "bojieli/ai-agent-book",
+          "HKUDS/LightRAG",
+          "stas00/ml-engineering",
+          "Netflix/metaflow"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          3,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q03",
+        "profile": {
+          "topics": [
+            "llm"
+          ],
+          "level": "intermediate",
+          "preference": "documented"
+        },
+        "ndcg@5": 0.2773,
+        "recall@5": 0.4,
+        "retrieved": [
+          "f/prompts.chat",
+          "bojieli/ai-agent-book",
+          "NirDiamant/agents-towards-production",
+          "stas00/ml-engineering",
+          "microsoft/agent-lightning"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          2,
+          2
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q04",
+        "profile": {
+          "topics": [
+            "llm"
+          ],
+          "level": "advanced",
+          "preference": "research"
+        },
+        "ndcg@5": 1.0,
+        "recall@5": 1.0,
+        "retrieved": [
+          "affaan-m/ECC",
+          "khoj-ai/khoj",
+          "bytedance/deer-flow",
+          "alibaba/MNN",
+          "activeloopai/deeplake"
+        ],
+        "grades": [
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q05",
+        "profile": {
+          "topics": [
+            "rag"
+          ],
+          "level": "beginner",
+          "preference": "easy"
+        },
+        "ndcg@5": 0.753,
+        "recall@5": 0.6667,
+        "retrieved": [
+          "Shubhamsaboo/awesome-llm-apps",
+          "bojieli/ai-agent-book",
+          "patchy631/ai-engineering-hub",
+          "datawhalechina/tiny-universe",
+          "stas00/ml-engineering"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          1,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q06",
+        "profile": {
+          "topics": [
+            "rag"
+          ],
+          "level": "beginner",
+          "preference": "runnable"
+        },
+        "ndcg@5": 0.7658,
+        "recall@5": 0.75,
+        "retrieved": [
+          "Shubhamsaboo/awesome-llm-apps",
+          "bojieli/ai-agent-book",
+          "HKUDS/LightRAG",
+          "datawhalechina/tiny-universe",
+          "stas00/ml-engineering"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          2,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q07",
+        "profile": {
+          "topics": [
+            "rag"
+          ],
+          "level": "intermediate",
+          "preference": "documented"
+        },
+        "ndcg@5": 0.208,
+        "recall@5": 0.25,
+        "retrieved": [
+          "Shubhamsaboo/awesome-llm-apps",
+          "bojieli/ai-agent-book",
+          "patchy631/ai-engineering-hub",
+          "datawhalechina/tiny-universe",
+          "activeloopai/deeplake"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q08",
+        "profile": {
+          "topics": [
+            "rag"
+          ],
+          "level": "advanced",
+          "preference": "research"
+        },
+        "ndcg@5": 0.968,
+        "recall@5": 1.0,
+        "retrieved": [
+          "khoj-ai/khoj",
+          "milvus-io/milvus",
+          "activeloopai/deeplake",
+          "pathwaycom/llm-app",
+          "wandb/wandb"
+        ],
+        "grades": [
+          3,
+          2,
+          2,
+          2,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q09",
+        "profile": {
+          "topics": [
+            "agent"
+          ],
+          "level": "beginner",
+          "preference": "easy"
+        },
+        "ndcg@5": 0.6673,
+        "recall@5": 0.6667,
+        "retrieved": [
+          "bojieli/ai-agent-book",
+          "NirDiamant/agents-towards-production",
+          "Snailclimb/JavaGuide",
+          "datawhalechina/tiny-universe",
+          "stas00/ml-engineering"
+        ],
+        "grades": [
+          3,
+          0,
+          3,
+          0,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q10",
+        "profile": {
+          "topics": [
+            "agent"
+          ],
+          "level": "beginner",
+          "preference": "runnable"
+        },
+        "ndcg@5": 0.7985,
+        "recall@5": 0.8,
+        "retrieved": [
+          "Snailclimb/JavaGuide",
+          "bojieli/ai-agent-book",
+          "NirDiamant/agents-towards-production",
+          "datawhalechina/tiny-universe",
+          "microsoft/agent-lightning"
+        ],
+        "grades": [
+          3,
+          3,
+          0,
+          2,
+          2
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q11",
+        "profile": {
+          "topics": [
+            "agent"
+          ],
+          "level": "intermediate",
+          "preference": "documented"
+        },
+        "ndcg@5": 0.6164,
+        "recall@5": 0.6,
+        "retrieved": [
+          "Snailclimb/JavaGuide",
+          "bojieli/ai-agent-book",
+          "NirDiamant/agents-towards-production",
+          "microsoft/agent-lightning",
+          "datawhalechina/tiny-universe"
+        ],
+        "grades": [
+          2,
+          0,
+          0,
+          2,
+          2
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q12",
+        "profile": {
+          "topics": [
+            "agent"
+          ],
+          "level": "advanced",
+          "preference": "research"
+        },
+        "ndcg@5": 1.0,
+        "recall@5": 1.0,
+        "retrieved": [
+          "TauricResearch/TradingAgents",
+          "khoj-ai/khoj",
+          "koala73/worldmonitor",
+          "activeloopai/deeplake",
+          "microsoft/agent-lightning"
+        ],
+        "grades": [
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q13",
+        "profile": {
+          "topics": [
+            "transformer"
+          ],
+          "level": "beginner",
+          "preference": "easy"
+        },
+        "ndcg@5": 0.8688,
+        "recall@5": 0.8,
+        "retrieved": [
+          "labmlai/annotated_deep_learning_paper_implementations",
+          "lukasmasuch/best-of-ml-python",
+          "datawhalechina/leedl-tutorial",
+          "amusi/CVPR2026-Papers-with-Code",
+          "GeeeekExplorer/nano-vllm"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          3,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q14",
+        "profile": {
+          "topics": [
+            "transformer"
+          ],
+          "level": "beginner",
+          "preference": "runnable"
+        },
+        "ndcg@5": 0.8688,
+        "recall@5": 0.8,
+        "retrieved": [
+          "huggingface/transformers",
+          "lukasmasuch/best-of-ml-python",
+          "datawhalechina/leedl-tutorial",
+          "PaddlePaddle/PaddleSpeech",
+          "ggml-org/whisper.cpp"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          3,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q15",
+        "profile": {
+          "topics": [
+            "transformer"
+          ],
+          "level": "intermediate",
+          "preference": "documented"
+        },
+        "ndcg@5": 0.6992,
+        "recall@5": 0.6,
+        "retrieved": [
+          "huggingface/transformers",
+          "labmlai/annotated_deep_learning_paper_implementations",
+          "lukasmasuch/best-of-ml-python",
+          "datawhalechina/leedl-tutorial",
+          "PaddlePaddle/PaddleSpeech"
+        ],
+        "grades": [
+          2,
+          2,
+          0,
+          2,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q16",
+        "profile": {
+          "topics": [
+            "transformer"
+          ],
+          "level": "advanced",
+          "preference": "research"
+        },
+        "ndcg@5": 0.6992,
+        "recall@5": 0.6,
+        "retrieved": [
+          "sgl-project/sglang",
+          "alibaba/MNN",
+          "BlinkDL/RWKV-LM",
+          "labmlai/annotated_deep_learning_paper_implementations",
+          "affaan-m/ECC"
+        ],
+        "grades": [
+          2,
+          2,
+          0,
+          2,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q17",
+        "profile": {
+          "topics": [
+            "diffusion"
+          ],
+          "level": "beginner",
+          "preference": "easy"
+        },
+        "ndcg@5": 0.7227,
+        "recall@5": 0.6,
+        "retrieved": [
+          "datawhalechina/leedl-tutorial",
+          "ChenHsing/Awesome-Video-Diffusion-Models",
+          "easydiffusion/easydiffusion",
+          "wangkai930418/awesome-diffusion-categorized",
+          "huggingface/peft"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          0,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q18",
+        "profile": {
+          "topics": [
+            "diffusion"
+          ],
+          "level": "beginner",
+          "preference": "runnable"
+        },
+        "ndcg@5": 0.849,
+        "recall@5": 0.8,
+        "retrieved": [
+          "datawhalechina/leedl-tutorial",
+          "easydiffusion/easydiffusion",
+          "ChenHsing/Awesome-Video-Diffusion-Models",
+          "AUTOMATIC1111/stable-diffusion-webui",
+          "huggingface/peft"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          2,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q19",
+        "profile": {
+          "topics": [
+            "diffusion"
+          ],
+          "level": "intermediate",
+          "preference": "documented"
+        },
+        "ndcg@5": 0.6992,
+        "recall@5": 0.6,
+        "retrieved": [
+          "datawhalechina/leedl-tutorial",
+          "AUTOMATIC1111/stable-diffusion-webui",
+          "ChenHsing/Awesome-Video-Diffusion-Models",
+          "huggingface/diffusers",
+          "sgl-project/sglang"
+        ],
+        "grades": [
+          2,
+          2,
+          0,
+          2,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q20",
+        "profile": {
+          "topics": [
+            "diffusion"
+          ],
+          "level": "advanced",
+          "preference": "research"
+        },
+        "ndcg@5": 0.9097,
+        "recall@5": 0.8,
+        "retrieved": [
+          "transformerlab/transformerlab-app",
+          "sgl-project/sglang",
+          "ai-dynamo/dynamo",
+          "prs-eth/Marigold",
+          "affaan-m/ECC"
+        ],
+        "grades": [
+          3,
+          2,
+          2,
+          2,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q21",
+        "profile": {
+          "topics": [
+            "mlops"
+          ],
+          "level": "beginner",
+          "preference": "easy"
+        },
+        "ndcg@5": 0.8688,
+        "recall@5": 0.8,
+        "retrieved": [
+          "DataTalksClub/mlops-zoomcamp",
+          "NirDiamant/agents-towards-production",
+          "EthicalML/awesome-production-machine-learning",
+          "stas00/ml-engineering",
+          "visenger/awesome-mlops"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          3,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q22",
+        "profile": {
+          "topics": [
+            "mlops"
+          ],
+          "level": "beginner",
+          "preference": "runnable"
+        },
+        "ndcg@5": 0.8688,
+        "recall@5": 0.8,
+        "retrieved": [
+          "DataTalksClub/mlops-zoomcamp",
+          "NirDiamant/agents-towards-production",
+          "EthicalML/awesome-production-machine-learning",
+          "stas00/ml-engineering",
+          "apache/airflow"
+        ],
+        "grades": [
+          3,
+          3,
+          3,
+          3,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q23",
+        "profile": {
+          "topics": [
+            "mlops"
+          ],
+          "level": "intermediate",
+          "preference": "documented"
+        },
+        "ndcg@5": 0.1461,
+        "recall@5": 0.2,
+        "retrieved": [
+          "DataTalksClub/mlops-zoomcamp",
+          "NirDiamant/agents-towards-production",
+          "EthicalML/awesome-production-machine-learning",
+          "stas00/ml-engineering",
+          "aws/amazon-sagemaker-examples"
+        ],
+        "grades": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "unsupported_reasons": 0
+      },
+      {
+        "id": "q24",
+        "profile": {
+          "topics": [
+            "mlops"
+          ],
+          "level": "advanced",
+          "preference": "research"
+        },
+        "ndcg@5": 0.8091,
+        "recall@5": 0.6,
+        "retrieved": [
+          "wandb/wandb",
+          "qdrant/qdrant",
+          "mlflow/mlflow",
+          "argoproj/argo-workflows",
+          "activeloopai/deeplake"
+        ],
+        "grades": [
+          3,
+          2,
+          2,
+          0,
+          0
+        ],
+        "unsupported_reasons": 0
+      }
+    ]
+  },
+  "llm": null,
+  "targets": {
+    "ndcg@5": 0.7,
+    "recall@5": 0.6,
+    "unsupported_reason_rate": 0.05,
+    "llm_gain_ratio": 1.1
+  },
+  "passed": true
+}

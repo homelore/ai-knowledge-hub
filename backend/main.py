@@ -71,7 +71,9 @@ async def shutdown():
 
 
 # ── 注册路由 ──────────────────────────────────────────
-from api.routes import repos, releases, topics, articles, stats, agent  # noqa: E402
+from api.routes import (  # noqa: E402
+    repos, releases, topics, articles, stats, agent, recommend,
+)
 
 app.include_router(repos.router,        prefix="/api/repos",     tags=["repos"])
 app.include_router(releases.router,     prefix="/api/releases",  tags=["releases"])
@@ -79,6 +81,7 @@ app.include_router(topics.router,       prefix="/api/topics",    tags=["topics"]
 app.include_router(articles.router,     prefix="/api/articles",  tags=["articles"])
 app.include_router(stats.router,        prefix="/api/stats",     tags=["stats"])
 app.include_router(agent.router,         prefix="/api/agent",     tags=["agent"])
+app.include_router(recommend.router,     prefix="/api/recommend", tags=["recommend"])
 
 
 @app.get("/api/health")

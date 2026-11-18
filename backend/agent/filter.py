@@ -4,6 +4,7 @@
 """
 
 import datetime
+import json
 from typing import Optional
 
 from config import MIN_STARS
@@ -49,12 +50,16 @@ def map_repo(raw_repo: dict) -> dict:
         language        → language
         license.name    → license
         updated_at      → github_updated_at
+        pushed_at       → pushed_at
+        open_issues_count → open_issues
+        size            → size
+        topics          → github_topics（JSON 数组字符串）
 
     Args:
         raw_repo: GitHub API /search/repositories 返回的单个仓库 JSON
 
     Returns:
-        内部字段字典，包含 9 个字段
+        内部字段字典
     """
     license_info = raw_repo.get("license")
     license_name = license_info.get("name") if license_info else None
@@ -70,6 +75,13 @@ def map_repo(raw_repo: dict) -> dict:
         "language": raw_repo.get("language"),
         "license": license_name,
         "github_updated_at": _parse_github_datetime(raw_repo.get("updated_at")),
+        # M1：以下字段同样来自同一次搜索响应，不产生额外 API 请求
+        "pushed_at": _parse_github_datetime(raw_repo.get("pushed_at")),
+        "open_issues": raw_repo.get("open_issues_count", 0) or 0,
+        "size": raw_repo.get("size", 0) or 0,
+        "github_topics": json.dumps(
+            raw_repo.get("topics") or [], ensure_ascii=False
+        ),
     }
 
 

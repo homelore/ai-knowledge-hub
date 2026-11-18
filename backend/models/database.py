@@ -29,11 +29,31 @@ SessionLocal = sessionmaker(bind=engine, autoflush=False, expire_on_commit=False
 Base = declarative_base()
 
 
+def _ensure_repo_columns():
+    """为已存在的 repos 表补加 M1 新增列（SQLite 的 create_all 不会加列）。"""
+    additions = {
+        "pushed_at": "DATETIME",
+        "open_issues": "INTEGER DEFAULT 0",
+        "size": "INTEGER DEFAULT 0",
+        "github_topics": "TEXT",
+    }
+    with engine.begin() as conn:
+        existing = {
+            row[1] for row in conn.exec_driver_sql("PRAGMA table_info(repos)")
+        }
+        for name, ddl in additions.items():
+            if name not in existing:
+                conn.exec_driver_sql(f"ALTER TABLE repos ADD COLUMN {name} {ddl}")
+
+
 def init_db():
-    """创建所有表（幂等操作）。"""
+    """创建所有表（幂等操作），并为旧库补齐新增列。"""
     # 确保所有模型已被导入，Base.metadata 才能注册
-    from models import repo, release, topic, fetch_log, repo_star_history, article  # noqa: F401
+    from models import (  # noqa: F401
+        repo, repo_meta, release, topic, fetch_log, repo_star_history, article,
+    )
     Base.metadata.create_all(engine)
+    _ensure_repo_columns()
 
 
 @contextmanager

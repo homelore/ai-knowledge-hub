@@ -1,0 +1,570 @@
+{
+  "version": "1.1",
+  "description": "24 条 golden set：6 个主题 × 4 类典型用户。rel 为分级相关度（3 很相关 / 2 相关 / 1 勉强），由 scripts/build_golden_set.py 按 rubric 生成后冻结，建议人工抽查校对。",
+  "queries": [
+    {
+      "id": "q01",
+      "profile": {
+        "topics": [
+          "llm"
+        ],
+        "level": "beginner",
+        "preference": "easy"
+      },
+      "relevant": {
+        "f/prompts.chat": 3,
+        "mlabonne/llm-course": 3,
+        "bojieli/ai-agent-book": 3,
+        "stas00/ml-engineering": 3,
+        "microsoft/agent-lightning": 1
+      },
+      "curated_relevant": {
+        "f/prompts.chat": 3,
+        "ollama/ollama": 3,
+        "open-webui/open-webui": 2,
+        "langchain-ai/langchain": 2,
+        "huggingface/transformers": 2
+      }
+    },
+    {
+      "id": "q02",
+      "profile": {
+        "topics": [
+          "llm"
+        ],
+        "level": "beginner",
+        "preference": "runnable"
+      },
+      "relevant": {
+        "f/prompts.chat": 3,
+        "mlabonne/llm-course": 3,
+        "bojieli/ai-agent-book": 3,
+        "stas00/ml-engineering": 3,
+        "microsoft/agent-lightning": 2
+      },
+      "curated_relevant": {
+        "ollama/ollama": 3,
+        "open-webui/open-webui": 3,
+        "f/prompts.chat": 2,
+        "langchain-ai/langchain": 2,
+        "firecrawl/firecrawl": 1
+      }
+    },
+    {
+      "id": "q03",
+      "profile": {
+        "topics": [
+          "llm"
+        ],
+        "level": "intermediate",
+        "preference": "documented"
+      },
+      "relevant": {
+        "Significant-Gravitas/AutoGPT": 2,
+        "vllm-project/vllm": 2,
+        "OpenHands/OpenHands": 2,
+        "stas00/ml-engineering": 2,
+        "microsoft/agent-lightning": 2
+      },
+      "curated_relevant": {
+        "langchain-ai/langchain": 3,
+        "langgenius/dify": 3,
+        "open-webui/open-webui": 3,
+        "firecrawl/firecrawl": 2,
+        "ollama/ollama": 2
+      }
+    },
+    {
+      "id": "q04",
+      "profile": {
+        "topics": [
+          "llm"
+        ],
+        "level": "advanced",
+        "preference": "research"
+      },
+      "relevant": {
+        "affaan-m/ECC": 3,
+        "khoj-ai/khoj": 3,
+        "bytedance/deer-flow": 2,
+        "alibaba/MNN": 2,
+        "activeloopai/deeplake": 2
+      },
+      "curated_relevant": {
+        "affaan-m/ECC": 3,
+        "NousResearch/hermes-agent": 3,
+        "TauricResearch/TradingAgents": 2,
+        "Significant-Gravitas/AutoGPT": 2,
+        "bytedance/deer-flow": 2
+      }
+    },
+    {
+      "id": "q05",
+      "profile": {
+        "topics": [
+          "rag"
+        ],
+        "level": "beginner",
+        "preference": "easy"
+      },
+      "relevant": {
+        "Shubhamsaboo/awesome-llm-apps": 3,
+        "dair-ai/Prompt-Engineering-Guide": 3,
+        "bojieli/ai-agent-book": 3,
+        "activeloopai/deeplake": 1,
+        "datawhalechina/tiny-universe": 1
+      },
+      "curated_relevant": {
+        "Shubhamsaboo/awesome-llm-apps": 3,
+        "dair-ai/Prompt-Engineering-Guide": 2,
+        "datawhalechina/hello-agents": 2,
+        "open-webui/open-webui": 2,
+        "langchain-ai/langchain": 2
+      }
+    },
+    {
+      "id": "q06",
+      "profile": {
+        "topics": [
+          "rag"
+        ],
+        "level": "beginner",
+        "preference": "runnable"
+      },
+      "relevant": {
+        "Shubhamsaboo/awesome-llm-apps": 3,
+        "dair-ai/Prompt-Engineering-Guide": 3,
+        "bojieli/ai-agent-book": 3,
+        "datawhalechina/tiny-universe": 2,
+        "activeloopai/deeplake": 1
+      },
+      "curated_relevant": {
+        "open-webui/open-webui": 3,
+        "Shubhamsaboo/awesome-llm-apps": 3,
+        "infiniflow/ragflow": 2,
+        "langchain-ai/langchain": 2
+      }
+    },
+    {
+      "id": "q07",
+      "profile": {
+        "topics": [
+          "rag"
+        ],
+        "level": "intermediate",
+        "preference": "documented"
+      },
+      "relevant": {
+        "open-webui/open-webui": 2,
+        "thedotmack/claude-mem": 2,
+        "infiniflow/ragflow": 2,
+        "datawhalechina/tiny-universe": 2,
+        "activeloopai/deeplake": 1
+      },
+      "curated_relevant": {
+        "infiniflow/ragflow": 3,
+        "langchain-ai/langchain": 3,
+        "open-webui/open-webui": 2,
+        "Graphify-Labs/graphify": 2,
+        "PaddlePaddle/PaddleOCR": 1
+      }
+    },
+    {
+      "id": "q08",
+      "profile": {
+        "topics": [
+          "rag"
+        ],
+        "level": "advanced",
+        "preference": "research"
+      },
+      "relevant": {
+        "khoj-ai/khoj": 3,
+        "pathwaycom/llm-app": 2,
+        "milvus-io/milvus": 2,
+        "activeloopai/deeplake": 2,
+        "datawhalechina/tiny-universe": 1
+      },
+      "curated_relevant": {
+        "Graphify-Labs/graphify": 3,
+        "infiniflow/ragflow": 2,
+        "thedotmack/claude-mem": 2,
+        "langchain-ai/langchain": 2,
+        "headroomlabs-ai/headroom": 2
+      }
+    },
+    {
+      "id": "q09",
+      "profile": {
+        "topics": [
+          "agent"
+        ],
+        "level": "beginner",
+        "preference": "easy"
+      },
+      "relevant": {
+        "Snailclimb/JavaGuide": 3,
+        "dair-ai/Prompt-Engineering-Guide": 3,
+        "bojieli/ai-agent-book": 3,
+        "microsoft/agent-lightning": 1,
+        "activeloopai/deeplake": 1
+      },
+      "curated_relevant": {
+        "dair-ai/Prompt-Engineering-Guide": 3,
+        "Snailclimb/JavaGuide": 2,
+        "shareAI-lab/learn-claude-code": 2,
+        "OpenHands/OpenHands": 2,
+        "lobehub/lobehub": 2
+      }
+    },
+    {
+      "id": "q10",
+      "profile": {
+        "topics": [
+          "agent"
+        ],
+        "level": "beginner",
+        "preference": "runnable"
+      },
+      "relevant": {
+        "Snailclimb/JavaGuide": 3,
+        "dair-ai/Prompt-Engineering-Guide": 3,
+        "bojieli/ai-agent-book": 3,
+        "microsoft/agent-lightning": 2,
+        "datawhalechina/tiny-universe": 2
+      },
+      "curated_relevant": {
+        "OpenHands/OpenHands": 3,
+        "lobehub/lobehub": 3,
+        "langgenius/dify": 2,
+        "shareAI-lab/learn-claude-code": 2
+      }
+    },
+    {
+      "id": "q11",
+      "profile": {
+        "topics": [
+          "agent"
+        ],
+        "level": "intermediate",
+        "preference": "documented"
+      },
+      "relevant": {
+        "Snailclimb/JavaGuide": 2,
+        "OpenHands/OpenHands": 2,
+        "lobehub/lobehub": 2,
+        "microsoft/agent-lightning": 2,
+        "datawhalechina/tiny-universe": 2
+      },
+      "curated_relevant": {
+        "lobehub/lobehub": 3,
+        "OpenHands/OpenHands": 3,
+        "shareAI-lab/learn-claude-code": 3,
+        "langgenius/dify": 2
+      }
+    },
+    {
+      "id": "q12",
+      "profile": {
+        "topics": [
+          "agent"
+        ],
+        "level": "advanced",
+        "preference": "research"
+      },
+      "relevant": {
+        "TauricResearch/TradingAgents": 3,
+        "khoj-ai/khoj": 3,
+        "koala73/worldmonitor": 2,
+        "activeloopai/deeplake": 2,
+        "microsoft/agent-lightning": 1
+      },
+      "curated_relevant": {
+        "TauricResearch/TradingAgents": 3,
+        "bytedance/deer-flow": 3,
+        "koala73/worldmonitor": 2,
+        "langgenius/dify": 2,
+        "NousResearch/hermes-agent": 2
+      }
+    },
+    {
+      "id": "q13",
+      "profile": {
+        "topics": [
+          "transformer"
+        ],
+        "level": "beginner",
+        "preference": "easy"
+      },
+      "relevant": {
+        "labmlai/annotated_deep_learning_paper_implementations": 3,
+        "lukasmasuch/best-of-ml-python": 3,
+        "amusi/CVPR2026-Papers-with-Code": 3,
+        "datawhalechina/leedl-tutorial": 3,
+        "graykode/nlp-tutorial": 3
+      },
+      "curated_relevant": {
+        "labmlai/annotated_deep_learning_paper_implementations": 3,
+        "huggingface/transformers": 3,
+        "lukasmasuch/best-of-ml-python": 2
+      }
+    },
+    {
+      "id": "q14",
+      "profile": {
+        "topics": [
+          "transformer"
+        ],
+        "level": "beginner",
+        "preference": "runnable"
+      },
+      "relevant": {
+        "huggingface/transformers": 3,
+        "lukasmasuch/best-of-ml-python": 3,
+        "datawhalechina/leedl-tutorial": 3,
+        "PaddlePaddle/PaddleSpeech": 3,
+        "google/trax": 3
+      },
+      "curated_relevant": {
+        "huggingface/transformers": 3,
+        "ggml-org/whisper.cpp": 3,
+        "SYSTRAN/faster-whisper": 2,
+        "fishaudio/fish-speech": 2
+      }
+    },
+    {
+      "id": "q15",
+      "profile": {
+        "topics": [
+          "transformer"
+        ],
+        "level": "intermediate",
+        "preference": "documented"
+      },
+      "relevant": {
+        "huggingface/transformers": 2,
+        "vllm-project/vllm": 2,
+        "labmlai/annotated_deep_learning_paper_implementations": 2,
+        "nndl/nndl": 2,
+        "datawhalechina/leedl-tutorial": 2
+      },
+      "curated_relevant": {
+        "vllm-project/vllm": 3,
+        "huggingface/transformers": 3,
+        "ggml-org/whisper.cpp": 2,
+        "fishaudio/fish-speech": 2
+      }
+    },
+    {
+      "id": "q16",
+      "profile": {
+        "topics": [
+          "transformer"
+        ],
+        "level": "advanced",
+        "preference": "research"
+      },
+      "relevant": {
+        "labmlai/annotated_deep_learning_paper_implementations": 2,
+        "open-mmlab/mmdetection": 2,
+        "sgl-project/sglang": 2,
+        "alibaba/MNN": 2,
+        "graykode/nlp-tutorial": 2
+      },
+      "curated_relevant": {
+        "sgl-project/sglang": 3,
+        "vllm-project/vllm": 3,
+        "open-mmlab/mmdetection": 2,
+        "p-e-w/heretic": 2
+      }
+    },
+    {
+      "id": "q17",
+      "profile": {
+        "topics": [
+          "diffusion"
+        ],
+        "level": "beginner",
+        "preference": "easy"
+      },
+      "relevant": {
+        "datawhalechina/leedl-tutorial": 3,
+        "easydiffusion/easydiffusion": 3,
+        "open-mmlab/mmagic": 3,
+        "williamyang1991/Rerender_A_Video": 3,
+        "ChenHsing/Awesome-Video-Diffusion-Models": 3
+      },
+      "curated_relevant": {
+        "datawhalechina/leedl-tutorial": 3,
+        "easydiffusion/easydiffusion": 3,
+        "AUTOMATIC1111/stable-diffusion-webui": 3,
+        "huggingface/diffusers": 2
+      }
+    },
+    {
+      "id": "q18",
+      "profile": {
+        "topics": [
+          "diffusion"
+        ],
+        "level": "beginner",
+        "preference": "runnable"
+      },
+      "relevant": {
+        "datawhalechina/leedl-tutorial": 3,
+        "easydiffusion/easydiffusion": 3,
+        "williamyang1991/Rerender_A_Video": 3,
+        "ChenHsing/Awesome-Video-Diffusion-Models": 3,
+        "AUTOMATIC1111/stable-diffusion-webui": 2
+      },
+      "curated_relevant": {
+        "AUTOMATIC1111/stable-diffusion-webui": 3,
+        "easydiffusion/easydiffusion": 3,
+        "huggingface/diffusers": 2,
+        "open-mmlab/mmagic": 2
+      }
+    },
+    {
+      "id": "q19",
+      "profile": {
+        "topics": [
+          "diffusion"
+        ],
+        "level": "intermediate",
+        "preference": "documented"
+      },
+      "relevant": {
+        "AUTOMATIC1111/stable-diffusion-webui": 2,
+        "huggingface/diffusers": 2,
+        "datawhalechina/leedl-tutorial": 2,
+        "NVlabs/Sana": 2,
+        "cloneofsimo/lora": 2
+      },
+      "curated_relevant": {
+        "huggingface/diffusers": 3,
+        "huggingface/peft": 3,
+        "AUTOMATIC1111/stable-diffusion-webui": 2,
+        "open-mmlab/mmagic": 2,
+        "cloneofsimo/lora": 2
+      }
+    },
+    {
+      "id": "q20",
+      "profile": {
+        "topics": [
+          "diffusion"
+        ],
+        "level": "advanced",
+        "preference": "research"
+      },
+      "relevant": {
+        "transformerlab/transformerlab-app": 3,
+        "sgl-project/sglang": 2,
+        "ai-dynamo/dynamo": 2,
+        "prs-eth/Marigold": 2,
+        "wangkai930418/awesome-diffusion-categorized": 2
+      },
+      "curated_relevant": {
+        "sgl-project/sglang": 3,
+        "NVlabs/Sana": 3,
+        "ai-dynamo/dynamo": 2,
+        "huggingface/peft": 2,
+        "cloneofsimo/lora": 2
+      }
+    },
+    {
+      "id": "q21",
+      "profile": {
+        "topics": [
+          "mlops"
+        ],
+        "level": "beginner",
+        "preference": "easy"
+      },
+      "relevant": {
+        "NirDiamant/agents-towards-production": 3,
+        "EthicalML/awesome-production-machine-learning": 3,
+        "stas00/ml-engineering": 3,
+        "DataTalksClub/mlops-zoomcamp": 3,
+        "microsoft/nni": 3
+      },
+      "curated_relevant": {
+        "EthicalML/awesome-production-machine-learning": 3,
+        "NirDiamant/agents-towards-production": 3,
+        "stas00/ml-engineering": 3,
+        "GokuMohandas/Made-With-ML": 2
+      }
+    },
+    {
+      "id": "q22",
+      "profile": {
+        "topics": [
+          "mlops"
+        ],
+        "level": "beginner",
+        "preference": "runnable"
+      },
+      "relevant": {
+        "NirDiamant/agents-towards-production": 3,
+        "EthicalML/awesome-production-machine-learning": 3,
+        "stas00/ml-engineering": 3,
+        "DataTalksClub/mlops-zoomcamp": 3,
+        "microsoft/nni": 3
+      },
+      "curated_relevant": {
+        "mlflow/mlflow": 3,
+        "apache/airflow": 3,
+        "jina-ai/serve": 2,
+        "HumanSignal/label-studio": 2
+      }
+    },
+    {
+      "id": "q23",
+      "profile": {
+        "topics": [
+          "mlops"
+        ],
+        "level": "intermediate",
+        "preference": "documented"
+      },
+      "relevant": {
+        "apache/airflow": 2,
+        "HumanSignal/label-studio": 2,
+        "jina-ai/serve": 2,
+        "stas00/ml-engineering": 2,
+        "microsoft/agent-lightning": 2
+      },
+      "curated_relevant": {
+        "apache/airflow": 3,
+        "HumanSignal/label-studio": 3,
+        "mlflow/mlflow": 3,
+        "jina-ai/serve": 2,
+        "Avaiga/taipy": 2
+      }
+    },
+    {
+      "id": "q24",
+      "profile": {
+        "topics": [
+          "mlops"
+        ],
+        "level": "advanced",
+        "preference": "research"
+      },
+      "relevant": {
+        "wandb/wandb": 3,
+        "GokuMohandas/Made-With-ML": 2,
+        "qdrant/qdrant": 2,
+        "mlflow/mlflow": 2,
+        "Avaiga/taipy": 2
+      },
+      "curated_relevant": {
+        "qdrant/qdrant": 3,
+        "mlflow/mlflow": 3,
+        "GokuMohandas/Made-With-ML": 2,
+        "Avaiga/taipy": 2,
+        "ai-dynamo/dynamo": 2
+      }
+    }
+  ]
+}

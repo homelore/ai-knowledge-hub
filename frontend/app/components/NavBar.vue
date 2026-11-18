@@ -19,6 +19,9 @@
         <NuxtLink to="/repos" class="text-text-secondary hover:text-text-primary text-sm font-medium transition-colors">
           仓库动态
         </NuxtLink>
+        <NuxtLink to="/recommend" class="text-text-secondary hover:text-text-primary text-sm font-medium transition-colors">
+          项目推荐
+        </NuxtLink>
         <NuxtLink to="/topics/llm" class="text-text-secondary hover:text-text-primary text-sm font-medium transition-colors">
           主题分类
         </NuxtLink>
@@ -59,6 +62,9 @@
         </NuxtLink>
         <NuxtLink to="/repos" class="text-text-secondary hover:text-text-primary text-sm font-medium py-2 transition-colors" @click="mobileMenuOpen = false">
           仓库动态
+        </NuxtLink>
+        <NuxtLink to="/recommend" class="text-text-secondary hover:text-text-primary text-sm font-medium py-2 transition-colors" @click="mobileMenuOpen = false">
+          项目推荐
         </NuxtLink>
         <NuxtLink to="/topics/llm" class="text-text-secondary hover:text-text-primary text-sm font-medium py-2 transition-colors" @click="mobileMenuOpen = false">
           主题分类

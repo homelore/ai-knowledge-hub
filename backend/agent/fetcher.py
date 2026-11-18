@@ -193,6 +193,11 @@ def _upsert_to_db(
             existing.license = mapped_repo["license"]
             existing.weekly_star_gain = weekly_gain
             existing.github_updated_at = mapped_repo["github_updated_at"]
+            # M1 新增字段
+            existing.pushed_at = mapped_repo.get("pushed_at")
+            existing.open_issues = mapped_repo.get("open_issues", 0)
+            existing.size = mapped_repo.get("size", 0)
+            existing.github_topics = mapped_repo.get("github_topics")
             existing.updated_at = datetime.utcnow()
             repo_obj = existing
             updated_count += 1
@@ -210,6 +215,10 @@ def _upsert_to_db(
                 license=mapped_repo["license"],
                 weekly_star_gain=weekly_gain,
                 github_updated_at=mapped_repo["github_updated_at"],
+                pushed_at=mapped_repo.get("pushed_at"),
+                open_issues=mapped_repo.get("open_issues", 0),
+                size=mapped_repo.get("size", 0),
+                github_topics=mapped_repo.get("github_topics"),
             )
             session.add(repo_obj)
             session.flush()  # 刷新以获取 repo_obj.id
