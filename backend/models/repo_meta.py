@@ -35,7 +35,7 @@ class RepoMeta(Base):
     # ⑤ 主要用途：framework / tool / model / tutorial / platform
     category = Column(String(20), nullable=False)
 
-    # 初标来源：rule=规则生成，manual=人工校对
+    # 标注来源：rule=规则生成，llm=模型预标注，manual=人工校对（优先级最高）
     source = Column(String(20), nullable=False, default="rule")
     notes = Column(Text)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)

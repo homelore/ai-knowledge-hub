@@ -1,0 +1,143 @@
+﻿repo_id,full_name,difficulty_old,difficulty_new,setup_cost_old,setup_cost_new,run_mode_old,run_mode_new,needs_gpu_old,needs_gpu_new,category_old,category_new,confidence,reason
+1,affaan-m/ECC,advanced,beginner,medium,low,research,local,no,no,framework,tool,0.90,AI开发辅助工具，无需GPU，易上手
+2,NousResearch/hermes-agent,advanced,beginner,medium,low,research,local,no,no,framework,tool,0.90,开箱即用的AI智能体工具
+3,Significant-Gravitas/AutoGPT,intermediate,intermediate,medium,medium,local,local,no,optional,model,framework,0.85,需配API密钥，本地运行的智能体框架
+4,ollama/ollama,intermediate,beginner,medium,low,local,local,optional,optional,model,tool,0.98,一键本地运行大模型的工具
+6,f/prompts.chat,beginner,beginner,low,low,local,demo,no,no,tutorial,platform,0.90,提示词社区分享平台，无需GPU
+7,AUTOMATIC1111/stable-diffusion-webui,intermediate,intermediate,medium,high,demo,local,optional,required,platform,tool,0.90,本地部署的AI绘图工具
+8,huggingface/transformers,beginner,beginner,high,medium,local,local,optional,optional,tutorial,framework,0.95,pip安装即可调用预训练模型的通用框架
+9,Snailclimb/JavaGuide,beginner,beginner,medium,low,local,demo,no,no,tutorial,tutorial,0.98,Java面试学习资料合集
+10,langgenius/dify,advanced,beginner,medium,low,local,local,no,no,platform,platform,0.95,Docker一键部署的LLM开发平台
+11,open-webui/open-webui,intermediate,beginner,medium,low,api-service,local,optional,optional,model,platform,0.95,一键部署的本地AI对话平台
+12,langchain-ai/langchain,intermediate,intermediate,medium,medium,local,local,no,no,platform,framework,0.95,LLM应用开发主流框架
+13,Shubhamsaboo/awesome-llm-apps,beginner,intermediate,low,medium,local,local,optional,optional,tutorial,tutorial,0.85,LLM应用合集，需配API，本地运行
+14,harry0703/MoneyPrinterTurbo,intermediate,intermediate,medium,medium,local,local,no,optional,tool,tool,0.90,AI自动生成短视频的本地工具
+15,DietrichGebert/ponytail,intermediate,beginner,medium,medium,local,local,no,no,model,tool,0.90,AI 编码助手插件，需配 API 密钥
+16,Graphify-Labs/graphify,intermediate,beginner,medium,low,local,local,no,no,tool,tool,0.90,本地代码知识图谱工具，无需GPU
+18,rasbt/LLMs-from-scratch,beginner,beginner,medium,medium,local,research,optional,optional,tutorial,tutorial,0.95,LLM从零实现的分步教学教程
+19,JuliusBrussee/caveman,intermediate,beginner,medium,low,local,local,no,no,tool,tool,0.95,Go编写的Claude Code技能，本地运行无需GPU
+20,TauricResearch/TradingAgents,advanced,intermediate,medium,medium,research,local,optional,optional,model,framework,0.85,多智能体金融交易框架，需配API依赖
+21,thedotmack/claude-mem,intermediate,beginner,medium,medium,local,local,no,no,framework,tool,0.90,AI 会话记忆工具，本地运行无需 GPU
+22,vllm-project/vllm,intermediate,intermediate,medium,high,api-service,api-service,optional,required,model,framework,0.90,大模型推理服务框架，需GPU部署
+23,infiniflow/ragflow,intermediate,intermediate,medium,medium,local,api-service,optional,optional,model,platform,0.90,开源RAG引擎，提供API服务
+24,PaddlePaddle/PaddleOCR,intermediate,beginner,medium,medium,local,local,optional,optional,model,tool,0.90,pip安装即可本地运行的OCR工具
+25,OpenHands/OpenHands,intermediate,beginner,medium,medium,local,local,no,optional,tool,platform,0.85,AI驱动开发平台，本地运行
+26,koala73/worldmonitor,advanced,intermediate,medium,medium,local,local,no,no,platform,platform,0.82,需配依赖与密钥的监控平台
+27,lobehub/lobehub,intermediate,intermediate,medium,medium,local,local,no,no,framework,platform,0.90,AI智能体协作平台，需配置API密钥
+28,mlabonne/llm-course,beginner,beginner,low,low,demo,demo,optional,no,tutorial,tutorial,0.95,LLM入门课程，含路线图与Colab笔记本
+29,bytedance/deer-flow,advanced,intermediate,medium,medium,api-service,local,no,no,framework,framework,0.90,需配依赖和API，本地运行的智能体框架
+30,Leonxlnx/taste-skill,intermediate,beginner,medium,low,local,local,no,no,tool,tool,0.95,轻量JS工具，本地易运行
+32,rtk-ai/rtk,intermediate,beginner,medium,low,api-service,local,optional,no,model,tool,0.95,单文件CLI工具，开箱即用
+33,shareAI-lab/learn-claude-code,intermediate,beginner,medium,medium,local,local,no,no,framework,tutorial,0.90,从零构建类Claude Code智能体的教学项目
+34,datawhalechina/hello-agents,intermediate,beginner,medium,medium,local,local,no,no,framework,tutorial,0.95,智能体入门教程，本地运行
+35,unslothai/unsloth,intermediate,intermediate,high,high,local,local,optional,required,model,framework,0.90,本地大模型训练微调框架，需GPU环境
+36,hiyouga/LlamaFactory,intermediate,intermediate,medium,high,local,local,optional,required,model,framework,0.90,大模型微调框架，需GPU环境
+37,FoundationAgents/MetaGPT,intermediate,intermediate,medium,medium,local,local,no,no,model,framework,0.90,多智能体开发框架，需配API密钥
+38,headroomlabs-ai/headroom,intermediate,beginner,medium,medium,api-service,local,optional,no,model,tool,0.90,Python压缩工具，本地运行无需GPU
+39,labmlai/annotated_deep_learning_paper_implementations,beginner,beginner,low,medium,research,research,optional,optional,tutorial,tutorial,0.95,论文复现教程合集，CPU可跑
+40,Mintplex-Labs/anything-llm,intermediate,beginner,medium,low,local,local,optional,no,model,platform,0.95,本地优先LLM平台，一键启动
+42,pathwaycom/llm-app,advanced,beginner,medium,medium,api-service,local,optional,no,platform,framework,0.85,开箱即用的RAG应用模板
+43,FlowiseAI/Flowise,intermediate,beginner,medium,low,local,local,no,no,framework,platform,0.90,可视化搭建AI代理的低代码平台
+44,ggml-org/whisper.cpp,intermediate,intermediate,medium,medium,local,local,no,optional,model,tool,0.90,C++语音转文本工具，CPU可跑
+45,run-llama/llama_index,intermediate,intermediate,medium,medium,local,local,optional,optional,platform,framework,0.90,LLM应用开发框架，需配API密钥
+46,calesthio/OpenMontage,advanced,intermediate,medium,medium,local,local,no,optional,platform,platform,0.82,开源智能视频制作平台，需配依赖
+47,huginn/huginn,intermediate,intermediate,medium,medium,local,local,no,no,framework,platform,0.90,本地自动化代理平台，需配环境
+48,GokuMohandas/Made-With-ML,advanced,intermediate,medium,medium,local,research,no,optional,tool,tutorial,0.90,ML生产开发部署迭代系统教程
+49,jeecgboot/JeecgBoot,intermediate,intermediate,medium,high,local,local,no,no,tool,platform,0.90,企业级低代码平台，需配置多组件
+51,milvus-io/milvus,advanced,intermediate,medium,medium,local,api-service,no,optional,platform,platform,0.90,云原生向量数据库，需Docker部署
+54,pingcap/tidb,advanced,advanced,medium,high,local,local,no,no,framework,platform,0.90,分布式数据库需集群部署
+55,2noise/ChatTTS,intermediate,intermediate,medium,high,local,local,no,optional,model,model,0.90,对话语音生成模型，需装依赖下载权重
+56,AstrBotDevs/AstrBot,intermediate,intermediate,medium,medium,local,local,optional,optional,platform,framework,0.90,多平台AI助手开发框架，需配置依赖
+57,QuivrHQ/quivr,beginner,intermediate,medium,medium,local,api-service,optional,optional,model,framework,0.85,GenAI集成RAG框架，需配API与向量库
+58,HKUDS/LightRAG,beginner,intermediate,medium,medium,local,local,no,optional,framework,framework,0.85,RAG开发框架，需配依赖与API
+59,bytedance/UI-TARS-desktop,intermediate,intermediate,medium,medium,local,local,no,optional,model,platform,0.90,桌面端多模态智能体平台，本地运行
+60,chatchat-space/Langchain-Chatchat,intermediate,intermediate,medium,high,local,local,optional,optional,model,platform,0.85,本地知识库问答平台，需配环境
+61,HKUDS/DeepTutor,intermediate,beginner,medium,medium,local,demo,no,no,tool,platform,0.85,在线AI辅导平台，需API密钥
+62,alibaba/arthas,intermediate,beginner,medium,low,local,local,no,no,tool,tool,0.95,Java诊断工具，一键启动
+63,patchy631/ai-engineering-hub,beginner,beginner,low,medium,local,research,optional,no,tutorial,tutorial,0.95,LLM/RAG/Agent 教程合集，需配 API
+65,khoj-ai/khoj,advanced,beginner,medium,low,research,local,optional,no,model,platform,0.90,可自托管的个人AI助手平台
+66,1Panel-dev/1Panel,intermediate,beginner,medium,low,api-service,local,no,no,platform,platform,0.95,一键部署的Linux服务器管理面板
+67,ItzCrazyKns/Vane,intermediate,intermediate,medium,medium,local,local,no,no,framework,tool,0.85,本地AI问答工具，需配API与依赖
+68,reworkd/AgentGPT,intermediate,beginner,medium,medium,local,local,no,no,model,platform,0.90,浏览器端AI智能体平台，需API密钥
+70,continuedev/continue,intermediate,intermediate,medium,medium,local,local,no,optional,framework,tool,0.90,开源编码助手插件，需配API密钥
+71,VectifyAI/PageIndex,intermediate,beginner,medium,low,local,local,no,no,framework,tool,0.90,RAG文档索引工具，本地易运行
+72,esengine/DeepSeek-Reasonix,intermediate,beginner,medium,medium,local,local,no,no,framework,tool,0.90,终端AI编码助手，需配API密钥
+73,huggingface/diffusers,intermediate,intermediate,medium,medium,local,local,optional,optional,model,framework,0.90,扩散模型生成框架，需装依赖
+74,qdrant/qdrant,advanced,beginner,medium,low,local,api-service,no,no,platform,platform,0.95,向量数据库，Docker一键启动
+75,datawhalechina/happy-llm,intermediate,beginner,medium,low,local,research,optional,optional,model,tutorial,0.95,大模型入门教程，Jupyter Notebook 形式
+76,open-mmlab/mmdetection,intermediate,intermediate,medium,high,research,research,no,required,tool,framework,0.90,目标检测框架，需GPU训练复现
+77,sgl-project/sglang,advanced,intermediate,medium,high,api-service,api-service,no,required,model,framework,0.90,高性能大模型推理服务框架
+78,fishaudio/fish-speech,intermediate,intermediate,medium,high,local,local,no,required,tool,model,0.90,开源TTS模型，需GPU部署
+79,onyx-dot-app/onyx,intermediate,intermediate,medium,medium,local,local,optional,no,platform,platform,0.85,开源AI聊天平台，需配置依赖
+80,HumanSignal/label-studio,intermediate,beginner,medium,low,local,demo,no,no,platform,tool,0.95,多类型数据标注工具，易上手
+81,p-e-w/heretic,intermediate,advanced,medium,high,local,research,no,required,model,tool,0.85,需大模型权重与GPU，属研究类工具
+82,mlflow/mlflow,advanced,beginner,medium,low,local,local,optional,no,platform,platform,0.90,pip 安装即可本地运行的 ML 平台
+83,SYSTRAN/faster-whisper,intermediate,intermediate,medium,medium,local,local,no,optional,model,tool,0.90,本地语音转文字工具，需装依赖
+84,lukasmasuch/best-of-ml-python,beginner,beginner,low,low,local,demo,no,no,tutorial,tutorial,0.95,ML Python库精选榜单，无需运行
+86,jina-ai/serve,intermediate,intermediate,medium,medium,local,api-service,no,optional,platform,framework,0.90,云原生多模态AI应用开发框架
+87,huggingface/peft,intermediate,intermediate,medium,medium,local,local,no,optional,tool,framework,0.90,PEFT 微调框架，需配环境
+88,NirDiamant/agents-towards-production,beginner,intermediate,low,medium,local,local,no,no,tutorial,tutorial,0.95,端到端生成式AI智能体实战教程
+90,Avaiga/taipy,advanced,beginner,medium,low,local,local,no,no,tool,framework,0.90,Python 低门槛 Web 应用搭建框架
+91,nndl/nndl,intermediate,beginner,medium,low,local,demo,no,no,tool,tutorial,0.95,开源深度学习中文教材
+93,microsoft/agent-lightning,intermediate,intermediate,high,medium,local,research,no,optional,framework,framework,0.80,智能体训练框架，需配环境
+94,argoproj/argo-workflows,advanced,advanced,high,high,local,api-service,no,no,framework,platform,0.90,K8s工作流引擎，需集群环境
+95,weaviate/weaviate,intermediate,intermediate,medium,medium,local,api-service,no,no,platform,platform,0.90,开源向量数据库，提供API服务
+96,datawhalechina/leedl-tutorial,beginner,beginner,low,low,local,local,no,optional,tutorial,tutorial,0.95,深度学习入门教程，含可运行Notebook
+97,lukas-blecher/LaTeX-OCR,intermediate,beginner,medium,medium,local,local,no,optional,tool,tool,0.90,图像转LaTeX的OCR工具，本地可跑
+98,dagster-io/dagster,advanced,intermediate,medium,medium,local,local,no,no,platform,platform,0.90,数据编排平台，需装依赖本地运行
+99,alibaba/MNN,advanced,advanced,medium,high,local,local,optional,optional,model,framework,0.82,端侧推理引擎，需编译调试
+101,GeeeekExplorer/nano-vllm,intermediate,advanced,medium,high,local,local,optional,required,model,framework,0.85,vLLM精简实现，需GPU与分布式知识
+102,graykode/nlp-tutorial,beginner,beginner,low,low,research,local,no,optional,tutorial,tutorial,0.95,NLP教程，Jupyter Notebook易运行
+103,BlinkDL/RWKV-LM,advanced,advanced,high,high,local,research,optional,required,model,model,0.90,RWKV大语言模型训练推理项目
+104,microsoft/nni,beginner,intermediate,medium,medium,local,local,no,optional,tutorial,framework,0.85,AutoML框架，需配环境，GPU可选
+105,visenger/awesome-mlops,beginner,beginner,low,low,local,demo,no,no,tutorial,tutorial,0.95,MLOps 精选资料合集，无需运行
+106,EleutherAI/lm-evaluation-harness,intermediate,intermediate,medium,medium,local,research,no,optional,model,framework,0.90,语言模型评测框架，需配环境跑实验
+107,cfug/dio,intermediate,beginner,medium,low,local,local,no,no,tool,framework,0.95,Dart/Flutter 网络请求框架
+108,PaddlePaddle/PaddleSpeech,beginner,intermediate,medium,high,demo,research,no,optional,tutorial,framework,0.82,语音工具包，需装依赖配环境
+109,bentoml/OpenLLM,intermediate,intermediate,medium,high,api-service,api-service,optional,optional,platform,tool,0.90,LLM部署为OpenAI兼容API的工具
+110,fivetran/great_expectations,intermediate,intermediate,medium,medium,local,local,no,no,tool,framework,0.90,Python数据质量校验框架，本地运行无需GPU
+111,tensorzero/tensorzero,intermediate,intermediate,medium,medium,api-service,api-service,optional,no,platform,platform,0.90,LLMOps平台，需配依赖与API密钥
+112,wandb/wandb,advanced,beginner,high,medium,research,api-service,no,no,platform,platform,0.90,AI开发平台，需API密钥，无GPU依赖
+113,aws/amazon-sagemaker-examples,beginner,intermediate,high,high,demo,research,no,optional,tutorial,tutorial,0.90,SageMaker官方示例笔记本合集
+114,kedro-org/kedro,advanced,intermediate,medium,medium,local,local,no,no,framework,framework,0.90,Python数据科学工程化框架，本地运行无需GPU
+115,huggingface/text-generation-inference,intermediate,intermediate,medium,high,local,api-service,optional,required,model,framework,0.90,LLM推理服务框架，需GPU部署
+116,chiphuyen/machine-learning-systems-design,beginner,beginner,low,low,local,demo,no,no,tutorial,tutorial,0.95,机器学习系统设计电子书，无需运行
+117,skypilot-org/skypilot,intermediate,intermediate,medium,medium,local,local,no,optional,platform,platform,0.80,云算力平台，需配置云账号
+118,bigscience-workshop/petals,intermediate,advanced,medium,high,local,local,optional,optional,model,framework,0.85,分布式大模型推理框架
+119,easydiffusion/easydiffusion,beginner,beginner,medium,high,local,local,optional,optional,model,tool,0.95,一键本地AI绘图工具
+120,zyddnys/manga-image-translator,intermediate,intermediate,medium,medium,local,local,no,optional,tool,tool,0.90,图片翻译工具，需装依赖，GPU可选
+121,Netflix/metaflow,intermediate,intermediate,medium,medium,local,local,no,optional,tool,framework,0.90,ML系统开发框架，需配置环境
+122,open-mmlab/mmsegmentation,intermediate,intermediate,medium,high,research,research,no,required,tool,framework,0.90,语义分割研究框架，需GPU训练
+123,pycaret/pycaret,intermediate,beginner,medium,low,local,local,no,no,platform,platform,0.90,低代码AutoML平台，pip安装即可用
+124,PaddlePaddle/PaddleSeg,beginner,intermediate,high,medium,demo,local,required,optional,tutorial,framework,0.90,图像分割开发框架，需配环境
+125,activeloopai/deeplake,advanced,intermediate,high,medium,api-service,api-service,no,no,framework,platform,0.82,多模态数据湖平台，需配API
+126,NVlabs/Sana,intermediate,advanced,medium,high,local,research,optional,required,model,model,0.90,需GPU的扩散模型研究项目
+127,bentoml/BentoML,intermediate,intermediate,medium,medium,api-service,api-service,optional,optional,model,framework,0.90,模型推理API服务框架，需配环境
+128,OptimalScale/LMFlow,intermediate,intermediate,medium,high,local,research,optional,required,model,framework,0.90,大模型微调推理框架，需GPU环境
+129,google/trax,beginner,intermediate,medium,medium,local,research,no,optional,tutorial,framework,0.85,深度学习框架，需配环境
+130,jessevig/bertviz,intermediate,beginner,medium,medium,local,demo,optional,no,model,tool,0.90,Transformer注意力可视化工具
+131,openai/jukebox,intermediate,advanced,medium,high,research,research,no,required,model,model,0.90,音乐生成模型，需GPU复现论文
+132,ai-dynamo/dynamo,advanced,advanced,high,high,api-service,api-service,optional,required,framework,framework,0.90,分布式推理框架，需GPU集群
+133,evidentlyai/evidently,intermediate,beginner,medium,low,local,local,optional,no,model,framework,0.95,开源ML/LLM可观测框架，本地易跑
+134,cloneofsimo/lora,intermediate,intermediate,medium,high,local,research,optional,required,model,tool,0.82,需GPU微调扩散模型，属研究类工具
+135,open-mmlab/mmagic,beginner,intermediate,medium,high,api-service,research,optional,required,model,framework,0.90,生成式AI研究框架，需GPU环境
+136,leejet/stable-diffusion.cpp,intermediate,intermediate,medium,high,local,local,optional,optional,model,tool,0.85,纯C/C++扩散模型本地推理工具
+137,vllm-project/vllm-omni,intermediate,advanced,medium,high,local,api-service,optional,required,model,framework,0.90,多模态推理框架，需GPU部署
+138,transformerlab/transformerlab-app,advanced,intermediate,high,medium,research,local,optional,optional,model,platform,0.85,本地AI研究平台，需装依赖，GPU可选
+139,datawhalechina/tiny-universe,intermediate,beginner,medium,medium,local,local,no,optional,tool,tutorial,0.90,大模型手搓教程，本地运行
+140,pollinations/pollinations,intermediate,beginner,medium,low,local,demo,no,no,platform,platform,0.90,开源生成式AI平台，可在线体验
+141,VectorSpaceLab/OmniGen,intermediate,intermediate,medium,high,local,research,no,required,tool,model,0.90,统一图像生成模型，需GPU跑推理
+142,riffusion/riffusion-hobby,intermediate,intermediate,medium,high,local,local,optional,required,model,tool,0.80,实时音乐生成扩散模型，需GPU本地运行
+143,jina-ai/discoart,intermediate,intermediate,medium,high,local,local,optional,required,model,tool,0.85,本地跑扩散模型生成艺术图
+144,prs-eth/Marigold,intermediate,intermediate,medium,high,research,research,optional,required,model,model,0.90,CVPR 2024 单目深度估计扩散模型
+145,williamyang1991/Rerender_A_Video,beginner,advanced,medium,high,local,research,no,required,tutorial,model,0.90,顶会视频生成模型复现，需GPU与论文基础
+146,nunchaku-ai/ComfyUI-nunchaku,intermediate,intermediate,medium,high,local,local,no,required,tool,tool,0.85,ComfyUI插件，需GPU本地部署
+147,PlayVoice/whisper-vits-svc,intermediate,intermediate,medium,high,local,research,no,required,model,model,0.85,歌声转换模型，需GPU训练推理
+148,TMElyralab/MuseV,intermediate,advanced,medium,high,local,research,no,required,tool,model,0.90,视频生成模型，需GPU与权重
+149,ai-forever/Kandinsky-2,intermediate,intermediate,medium,high,local,research,optional,required,model,model,0.85,多语言文生图扩散模型，需GPU
+150,bytedance/InfiniteYou,intermediate,advanced,medium,high,api-service,research,no,required,framework,model,0.90,ICCV2025人脸身份保持图像生成模型
+151,riffusion/riffusion-app-hobby,intermediate,beginner,medium,low,local,demo,optional,no,model,tool,0.90,在线音乐生成Web应用
+152,ChenHsing/Awesome-Video-Diffusion-Models,beginner,beginner,low,low,local,research,optional,no,tutorial,tutorial,0.95,视频扩散模型论文综述资料合集
+153,nv-tlabs/lyra,intermediate,advanced,medium,high,local,research,no,required,model,model,0.90,生成式3D世界模型研究项目
+154,Alpha-VLLM/Lumina-T2X,intermediate,advanced,medium,high,local,research,optional,required,model,framework,0.90,统一多模态生成框架，需GPU与论文复现
+155,wangkai930418/awesome-diffusion-categorized,beginner,beginner,low,low,research,research,optional,no,tutorial,tutorial,0.95,扩散模型论文分类合集，无需运行
