@@ -20,6 +20,12 @@
 - 按 star 数排序，实时追踪周增长榜
 - 项目 Release 版本动态
 
+### 🎯 对话式项目推荐
+- 3 轮对话采集画像（感兴趣主题 / 当前水平 / 上手偏好），无 LLM key 也能跑通
+- 规则引擎打分 + 多样性硬约束：主题至少 3 种、owner 不重复、10 万 star 以上最多 1 个、2 万 star 以下至少 2 个
+- 每条结果附可核查的推荐理由、第一步上手建议、相关科普文章
+- 支持「不感兴趣」与「换一批」，会话内自动去重
+
 ### 🎨 暗色渐变设计
 - 深蓝灰背景 + 紫蓝绿三色渐变
 - 圆角卡片 + 半透明玻璃态效果
@@ -54,18 +60,21 @@ ai-knowledge-hub/
 │   │   ├── filter.py       # 数据映射与筛选
 │   │   └── scheduler.py     # APScheduler 定时调度
 │   ├── api/                # API 路由
-│   │   └── routes/         # repos / releases / topics / articles / stats / agent
-│   ├── models/             # SQLAlchemy 数据模型（7 张表）
+│   │   └── routes/         # repos / releases / topics / articles / stats / agent / recommend
+│   ├── models/             # SQLAlchemy 数据模型（8 张表）
 │   ├── services/           # 业务逻辑层
-│   ├── scripts/            # 种子数据等脚本
+│   │   ├── recommend/      # 推荐：profile 画像 / engine 打分与约束 / store 会话 / cache / llm_orchestrator
+│   │   └── llm/            # 火山方舟接入：config / ark_client / recommend_llm / guard
+│   ├── eval/               # golden set 与评测报告
+│   ├── scripts/            # seed / annotate_repos / llm_annotate / verify_m1~m3 / eval_recommend
 │   ├── config.py           # 环境配置
 │   ├── main.py             # FastAPI 入口
 │   └── requirements.txt    # Python 依赖
 ├── frontend/              # Nuxt 4 前端
 │   ├── app/
-│   │   ├── pages/          # 文件路由（首页、仓库列表、文章详情等）
+│   │   ├── pages/          # 文件路由（首页、仓库列表、推荐、文章详情等）
 │   │   ├── components/     # UI 组件
-│   │   ├── composables/    # 组合式函数（useApi、useFormat）
+│   │   ├── composables/    # 组合式函数（useApi、useFormat、useRecommend）
 │   │   └── assets/css/     # 全局样式
 │   ├── nuxt.config.ts      # Nuxt 配置（含 API 代理）
 │   └── tailwind.config.js  # Tailwind 主题配置
@@ -140,13 +149,31 @@ curl -X POST http://localhost:8000/api/agent/fetch
 
 > 拉取约 1~2 分钟，无 Token 也能拉取（60 次/小时限额），配置 `GITHUB_TOKEN` 可提升到 5000 次/小时。
 
+### 5. 标注仓库（推荐功能必需）
+
+推荐引擎只从 `repo_meta` 已标注的仓库里选，未标注的不进候选池：
+
+```bash
+cd backend
+
+# 规则初标：幂等，不覆盖人工标注
+python scripts/annotate_repos.py
+
+# 可选：用豆包预标注，需 ARK_API_KEY
+python scripts/llm_annotate.py
+
+# 验收：标注数、空值数、原始 topics 覆盖率
+python scripts/verify_m1.py
+```
+
 ## 📊 数据库说明
 
-### 表结构（7 张表）
+### 表结构（8 张表）
 
 | 表名 | 用途 |
 |------|------|
-| `repos` | GitHub 热门仓库信息 |
+| `repos` | GitHub 热门仓库信息（含 `pushed_at` / `open_issues` / `size` / `github_topics`） |
+| `repo_meta` | 仓库标注：difficulty / setup_cost / run_mode / needs_gpu / category，推荐引擎的数据基础 |
 | `releases` | 仓库 Release 版本记录 |
 | `repo_topics` | 仓库与主题多对多关联 |
 | `topics` | 预定义主题（6 个） |
@@ -173,6 +200,10 @@ curl -X POST http://localhost:8000/api/agent/fetch
 | GET | `/api/articles` | 文章列表 |
 | GET | `/api/articles/{slug}` | 文章详情（预渲染 HTML） |
 | POST | `/api/agent/fetch` | 手动触发 GitHub 拉取 |
+| POST | `/api/recommend/chat` | 对话式推荐：回答一轮 → 下一问或推荐结果 |
+| POST | `/api/recommend/action` | 结果反馈：`skip` 不感兴趣 / `refresh` 换一批 |
+| POST | `/api/recommend` | 无状态推荐：给定画像直接返回（评测脚本使用） |
+| POST | `/api/recommend/event` | 前端埋点上报 |
 
 完整 API 文档：http://localhost:8000/docs
 
@@ -208,6 +239,17 @@ GITHUB_TOKEN=ghp_your_token_here
 SCHEDULER_ENABLED=true
 CRON_HOUR=9
 CRON_DAY_OF_WEEK=mon
+
+# 跨域，逗号分隔
+CORS_ORIGINS=http://localhost:3000
+
+# 推荐精排用的 LLM（火山方舟 / 豆包）
+# 默认关闭：M5 评测显示 LLM 精排 nDCG 低于规则版，按验收标准停用
+# 打开后若缺 key 或模型标识，会自动降级为规则路径
+LLM_ENABLED=false
+ARK_API_KEY=
+ARK_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
+ARK_MODEL=doubao-seed-1-6-flash-250828
 ```
 
 ### Agent 拉取策略
@@ -228,6 +270,33 @@ CRON_DAY_OF_WEEK=mon
 - 模块边界清晰，后期可平滑拆分为微服务
 
 详细设计文档见 [`docs/2026-08-22-ai-knowledge-hub-design.md`](docs/2026-08-22-ai-knowledge-hub-design.md)
+
+## 🤖 推荐系统
+
+### 处理流程
+
+1. **画像采集** — 固定 3 问（感兴趣主题 / 当前水平 / 上手偏好）；无 LLM key 时用关键词规则解析
+2. **候选打分** — 主题命中 +30、关键词 +6、水平匹配 +15、偏好属性、新鲜度、热度、语言
+3. **多样性硬约束** — DFS 剪枝选出 Top5，同时满足：主题至少 3 种、owner 不重复、>10 万 star 至多 1 个、<2 万 star 至少 2 个
+4. **结果组装** — 每条含理由、第一步建议、相关科普文章
+
+### 评测
+
+`backend/eval/golden_recommend.json` 为 24 条 query（6 主题 × 4 画像）的 golden set，可一键复现：
+
+```bash
+cd backend
+python scripts/build_golden_set.py   # 按 rubric 生成/刷新标注
+python scripts/eval_recommend.py     # 输出 eval/report_recommend.json
+```
+
+| 指标 | 规则版 | 阈值 |
+|------|--------|------|
+| nDCG@5 | 0.7723 | ≥ 0.70 |
+| Recall@5 | 0.7049 | ≥ 0.60 |
+| 理由不支持率 | 0% | ≤ 5% |
+
+> 口径说明：golden set 的 rubric 与规则引擎打分同源（主题 / 水平 / 偏好），对规则版有利。LLM 版 nDCG 为 0.7255，未达「比规则版高 ≥10%」的阈值，故默认关闭；这组数字只能说明 LLM 未在规则的目标函数上占优，不等于人工体验更差。
 
 ## 🤝 贡献指南
 
